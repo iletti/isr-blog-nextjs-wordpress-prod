@@ -5,6 +5,33 @@
 /* Start purging... */
 @tailwind components;
 /* Stop purging. */
+.shadow-small {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+  border-radius: 8px; /* This gives the image a slight rounded corner like in the picture */
+  overflow: hidden; /* This makes sure the image doesn't bleed outside the border-radius */
+  transition: box-shadow 0.5s ease-in-out; /* Smooth transition for the shadow */
+}
+
+.hover\:shadow-medium:hover {
+  box-shadow: 0 20px 30px -10px rgba(0, 0, 0, 0.2);
+}
+.image-glow {
+  position: relative;
+  z-index: 1;
+  background: linear-gradient(45deg, rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.3));
+}
+
+.image-glow::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  bottom: -2px;
+  left: -2px;
+  z-index: -1;
+  background: inherit;
+  filter: blur(8px);
+}
 
 /* Write you own custom component styles here */
 
