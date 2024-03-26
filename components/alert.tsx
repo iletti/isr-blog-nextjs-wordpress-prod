@@ -25,12 +25,12 @@ export default function Alert({ preview }) {
             </>
           ) : (
             <>
-              The source code for this blog is{" "}
+              Firmalle lisää näkyvyyttä? Tutustu palveluihini{" "}
               <a
-                href={`https://github.com/vercel/next.js/tree/canary/examples/${EXAMPLE_PATH}`}
+                href={`https://ilarischimdt.com/palvelut`}
                 className="underline hover:text-success duration-200 transition-colors"
               >
-                available on GitHub
+                tästä
               </a>
               .
             </>

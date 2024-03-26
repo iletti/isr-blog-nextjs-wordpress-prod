@@ -27,13 +27,13 @@ export default function Post({ post, posts, preview }) {
       <Container>
         <Header />
         {router.isFallback ? (
-          <PostTitle>Loading…</PostTitle>
+          <PostTitle>Ladataan…</PostTitle>
         ) : (
           <>
             <article>
               <Head>
                 <title>
-                  {`${post.title} | Next.js Blog Example with ${CMS_NAME}`}
+                  {`${post.title} |Ilari Schmidt Blogi`}
                 </title>
                 <meta
                   property="og:image"
