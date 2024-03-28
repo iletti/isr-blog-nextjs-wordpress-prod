@@ -8,7 +8,7 @@ const Services = () => {
         <title>Google Ads Services - Freelancer</title>
         <meta name="description" content="Professional Google Ads management and optimization services by a certified freelancer. Increase your ROI with targeted ad campaigns." />
       </Head>
-      
+
       <div className="hero min-h-screen" style={{backgroundImage: 'url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)'}}>
   <div className="hero-overlay bg-opacity-60"></div>
   <div className="hero-content text-center text-neutral-content">
@@ -22,14 +22,14 @@ const Services = () => {
       <div className="min-h-screen bg-gray-100 py-10">
         <div className="container mx-auto px-4">
           <div className="text-center mb-10">
-            <h1 className="text-4xl font-bold text-gray-800 mb-4">Google Ads Services</h1>
+            <h2 className="text-4xl font-bold text-gray-800 mb-4">Google Ads Services</h2>
             <p className="text-xl text-gray-600">Maximize your reach and ROI with professional Google Ads management by a certified expert.</p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-1 lg:grid-cols-1 gap-8">
             <div className="card card-compact bg-base-100 shadow-xl hover:shadow-2xl transition-shadow">
               <div className="card-body items-center text-center">
-                <h2 className="card-title text-2xl">Campaign Setup</h2>
+                <h3 className="card-title text-2xl">Campaign Setup</h3>
                 <p>Strategic campaign setup to target the right audience and achieve your marketing goals.</p>
                 <div className="card-actions mt-4">
                   <button className="btn btn-primary">Learn More</button>
