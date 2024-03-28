@@ -15,9 +15,9 @@ const Palvelut = () => {
 </div>
 
 
-<div className="flex flex-col md:flex-row">
-  <div className="w-full md:basis-1/4">
-    <div className="card card-compact w-96 bg-base-100 shadow-xl">
+<div className="flex flex-col items-center justify-center">
+  <div className="w-full px-4 mb-4">
+    <div className="card card-compact w-full max-w-xs mx-auto bg-base-100 shadow-xl">
       <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
       <div className="card-body">
         <h2 className="card-title">Shoes!</h2>
@@ -28,8 +28,8 @@ const Palvelut = () => {
       </div>
     </div>
   </div>
-  <div className="w-full md:basis-1/4">
-    <div className="card card-compact w-96 bg-base-100 shadow-xl">
+  <div className="w-full px-4 mb-4">
+    <div className="card card-compact w-full max-w-xs mx-auto bg-base-100 shadow-xl">
       <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
       <div className="card-body">
         <h2 className="card-title">Shoes!</h2>
@@ -40,8 +40,8 @@ const Palvelut = () => {
       </div>
     </div>
   </div>
-  <div className="w-full md:basis-1/2">
-    <div className="card card-compact w-96 bg-base-100 shadow-xl">
+  <div className="w-full px-4">
+    <div className="card card-compact w-full max-w-xs mx-auto bg-base-100 shadow-xl">
       <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
       <div className="card-body">
         <h2 className="card-title">Shoes!</h2>
@@ -53,6 +53,7 @@ const Palvelut = () => {
     </div>
   </div>
 </div>
+
 
 
 </div>
