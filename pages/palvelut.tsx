@@ -14,7 +14,7 @@ const Palvelut = () => {
   </div>
 </div>
 <div className="flex w-full">
-  <div className="grid h-20 flex-grow card bg-base-300 rounded-box place-items-center"><div className="card card-compact w-96 bg-base-100 shadow-xl">
+  <div><div className="card card-compact w-96 bg-base-100 shadow-xl">
   <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
   <div className="card-body">
     <h2 className="card-title">Shoes!</h2>
@@ -25,7 +25,7 @@ const Palvelut = () => {
   </div>
 </div></div>
   <div className="divider divider-horizontal">OR</div>
-  <div className="grid h-20 flex-grow card bg-base-300 rounded-box place-items-center"><div className="card card-compact w-96 bg-base-100 shadow-xl">
+  <div><div className="card card-compact w-96 bg-base-100 shadow-xl">
   <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
   <div className="card-body">
     <h2 className="card-title">Shoes!</h2>
