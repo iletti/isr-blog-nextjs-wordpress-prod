@@ -1,7 +1,0 @@
-{
-    "rewrites": [
-      { "source": "/blogi/:subdir*", "destination": "https://isr-blog-nextjs-wordpress-prod.vercel.app/:subdir*" },
-      { "source": "/(.*)", "destination": "/" }
-    ]
-  }
-  
