@@ -20,7 +20,17 @@ export default function Index({ allPosts: { edges }, preview }) {
       <Container>
       <div className="hero min-h-screen bg-base-200">
   <div className="hero-content flex-col lg:flex-row-reverse">
-    <img src="https://daisyui.com/images/stock/photo-1635805737707-575885ab0820.jpg" className="max-w-sm rounded-lg shadow-2xl" />
+    <div className="max-w-sm rounded-lg shadow-2xl overflow-hidden">
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+        title="YouTube video player"
+        frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+      ></iframe>
+    </div>
     <div>
       <h1 className="text-5xl font-bold">Hakukoneseppä Ilari Schmidt</h1>
       <p className="py-6">Tervetuloa sivustolleni. Toteutan Google Ads projekteja näkyvyyttä kaipaaville asiakkailleni</p>
