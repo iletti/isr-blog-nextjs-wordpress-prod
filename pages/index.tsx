@@ -18,18 +18,21 @@ export default function Index({ allPosts: { edges }, preview }) {
         <title>{`Ilari Schmidt Blogi`}</title>
       </Head>
       <Container>
+
+    
       <div className="hero min-h-screen bg-base-200">
   <div className="hero-content flex-col lg:flex-row-reverse">
-    <div className="max-w-sm rounded-lg shadow-2xl overflow-hidden">
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
-        title="YouTube video player"
-        frameBorder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowFullScreen
-      ></iframe>
+    <div className="w-full lg:max-w-sm xl:max-w-md">
+      <div className="aspect-w-16 aspect-h-9">
+        <iframe
+          className="w-full h-full"
+          src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
     </div>
     <div>
       <h1 className="text-5xl font-bold">Hakukoneseppä Ilari Schmidt</h1>
@@ -38,6 +41,9 @@ export default function Index({ allPosts: { edges }, preview }) {
     </div>
   </div>
 </div>
+
+
+
         <Intro />
         {heroPost && (
           <HeroPost
