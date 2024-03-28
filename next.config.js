@@ -13,8 +13,6 @@ const { protocol, hostname, port, pathname } = new URL(process.env.WORDPRESS_API
 const nextConfig = {
   swcMinify: true,
   optimizeFonts: true,
-  basePath: '/blogi',
-  assetPrefix: '/blogi',
   images: {
     remotePatterns: [
       {
