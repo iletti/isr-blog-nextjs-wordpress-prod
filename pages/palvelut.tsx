@@ -27,35 +27,38 @@ const Services = () => {
           </div>
 
           <div className="grid md:grid-cols-1 lg:grid-cols-1 gap-8">
-            <div className="card card-compact bg-base-100 shadow-xl hover:shadow-2xl transition-shadow">
-              <div className="card-body items-center text-center">
-                <h3 className="card-title text-2xl">Campaign Setup</h3>
-                <p>Strategic campaign setup to target the right audience and achieve your marketing goals.</p>
-                <div className="card-actions mt-4">
-                  <button className="btn btn-primary">Learn More</button>
-                </div>
-              </div>
-            </div>
+          <div className="card lg:card-side bg-base-100 shadow-xl">
+  <figure><img src="https://daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.jpg" alt="Album"/></figure>
+  <div className="card-body">
+    <h2 className="card-title">New album is released!</h2>
+    <p>Click the button to listen on Spotiwhy app.</p>
+    <div className="card-actions justify-end">
+      <button className="btn btn-primary">Listen</button>
+    </div>
+  </div>
+</div>
 
-            <div className="card card-compact bg-base-100 shadow-xl hover:shadow-2xl transition-shadow">
-              <div className="card-body items-center text-center">
-                <h2 className="card-title text-2xl">Optimization</h2>
-                <p>Continuous optimization for your campaigns to ensure the best performance and ROI.</p>
-                <div className="card-actions mt-4">
-                  <button className="btn btn-primary">Learn More</button>
-                </div>
-              </div>
-            </div>
+<div className="card lg:card-side bg-base-100 shadow-xl">
+  <figure><img src="https://daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.jpg" alt="Album"/></figure>
+  <div className="card-body">
+    <h2 className="card-title">New album is released!</h2>
+    <p>Click the button to listen on Spotiwhy app.</p>
+    <div className="card-actions justify-end">
+      <button className="btn btn-primary">Listen</button>
+    </div>
+  </div>
+</div>
 
-            <div className="card card-compact bg-base-100 shadow-xl hover:shadow-2xl transition-shadow">
-              <div className="card-body items-center text-center">
-                <h2 className="card-title text-2xl">Reporting & Analysis</h2>
-                <p>Detailed monthly reporting and analysis to understand your campaign's impact.</p>
-                <div className="card-actions mt-4">
-                  <button className="btn btn-primary">Learn More</button>
-                </div>
-              </div>
-            </div>
+<div className="card lg:card-side bg-base-100 shadow-xl">
+  <figure><img src="https://daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.jpg" alt="Album"/></figure>
+  <div className="card-body">
+    <h2 className="card-title">New album is released!</h2>
+    <p>Click the button to listen on Spotiwhy app.</p>
+    <div className="card-actions justify-end">
+      <button className="btn btn-primary">Listen</button>
+    </div>
+  </div>
+</div>
             
             {/* Additional services can be listed here if you offer more than the above */}
           </div>
