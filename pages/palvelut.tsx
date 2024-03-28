@@ -8,7 +8,17 @@ const Services = () => {
         <title>Google Ads Services - Freelancer</title>
         <meta name="description" content="Professional Google Ads management and optimization services by a certified freelancer. Increase your ROI with targeted ad campaigns." />
       </Head>
-
+      
+      <div className="hero min-h-screen" style={{backgroundImage: 'url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)'}}>
+  <div className="hero-overlay bg-opacity-60"></div>
+  <div className="hero-content text-center text-neutral-content">
+    <div className="max-w-md">
+      <h1 className="mb-5 text-5xl font-bold">Google palvelut</h1>
+      <p className="mb-5">Maksimoi näkyvyytesi Googlessa</p>
+      <button className="btn btn-primary">Get Started</button>
+    </div>
+  </div>
+</div>
       <div className="min-h-screen bg-gray-100 py-10">
         <div className="container mx-auto px-4">
           <div className="text-center mb-10">
