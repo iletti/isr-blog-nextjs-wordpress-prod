@@ -14,97 +14,81 @@ const Services = ({ preview }) => {
       </Head>
 
       <div
-        className="hero"
+        className="hero min-h-screen"
         style={{
-          backgroundImage:
-            "url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)",
+          backgroundImage: `url('https://mleuki3qgkxz.i.optimole.com/co-ZpyQ-3_GPP-fY/w:auto/h:auto/q:auto/id:d515884a747a32e893cc0083b74b2568/directUpload/vihreakuula_Create_an_image_featuring_an_analytics_review_meeti_2f52fce7-2810-4e79-a0e8-ba9add42a515.png')`,
         }}
       >
         <div className="hero-overlay bg-opacity-60"></div>
-        <div className="hero-content text-center text-neutral-content">
+        <div className="hero-content text-center text-neutral-content glass">
           <div className="max-w-md">
-            <h1 className="mb-5 text-5xl font-bold">Google palvelut</h1>
-            <p className="mb-5">Maksimoi yrityksesi näkyvyys Googlessa</p>
+            <h1 className="mb-5 text-5xl font-bold">Google Ads palvelut</h1>
+            <p className="mb-5">
+              Maksimoi yrityksesi näkyvyys Googlessa Ilari Schmidtin avulla.
+            </p>
           </div>
         </div>
       </div>
-      <div className="min-h-screen bg-gray-100 py-10">
-        <div className="container mx-auto px-4">
+
+      <div className="flex items-center justify-center min-h-screen bg-gray-100 py-10">
+        <div className="w-8/12 mx-auto px-4">
           <div className="text-center mb-10">
             <h2 className="text-4xl font-bold text-gray-800 mb-4">
-              Google Ads Palvelut ja Hinnoittelu
+              Palvelut ja Hinnoittelu
             </h2>
             <p className="text-xl text-gray-600">
-              Maksimoi yrityksesi näkyvyys ja liiketoimintahyöty. Saat minulta
-              erinomaista palvelua vahvalla ammattitaidolla.
+              Oletko valmis kasvattamaan yrityksesi näkyvyyttä Googlessa ja
+              saamaan enemmän laadukkaita liidejä? Freelancer Ilari Schmidt
+              tarjoaa kattavat Google Ads -palvelut, jotka on suunniteltu
+              vastaamaan juuri sinun liiketoimintasi tarpeita. Kampanjahinnat
+              alkaen vain 200€ + valitsemasi budjetti.
             </p>
           </div>
 
-          <div className="grid md:grid-cols-1 lg:grid-cols-1 gap-8">
-            <div className="card lg:card-side bg-base-100 shadow-xl">
-              <figure>
-                <img
-                  src="https://daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.jpg"
-                  alt="Album"
-                />
-              </figure>
-              <div className="card-body">
-                <h2 className="card-title">Hakukonemainonta</h2>
-                <p>
-                  Määritetään tärkeimmät hakusanat, joissa yrityksesi tulee
+          <div>           <iframe
+              className="w-full aspect-video"
+              src="https://www.youtube.com/embed/YOUR_VIDEO_ID" // Replace with your video ID
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+</div>
+
+          <div className="join join-vertical w-full">
+            <div className="collapse collapse-arrow join-item border border-base-300">
+              <input type="radio" name="my-accordion-4" defaultChecked />
+              <div className="collapse-title text-xl font-medium">
+                Google hakusanakampanja <span>200€ + mainosbudjetti</span>
+              </div>
+              <div className="collapse-content">
+                <p>   Määritetään tärkeimmät hakusanat, joissa yrityksesi tulee
                   näkyä ja rakennetaan niiden ympärille relevantit mainokset.
                   Näin saadaan ohjattua potentiaalisia asiakkaita palvelujesi
-                  äärelle.
-                </p>
-                <div className="card-actions justify-end">
-                  <button className="btn btn-primary">Listen</button>
-                </div>
+                  äärelle. Kampanjan hinta on kertamaksu. Voit itse määrittää kuukausitasolla käytettävän mainosbudjetin. Mainonnan optimoinnista, joka on ainakin pari ekaa kuukautta järkevää toteuttaa, sovitaan erikseen.</p>
               </div>
             </div>
-
-            <div className="card lg:card-side bg-base-100 shadow-xl">
-              <figure>
-                <img
-                  src="https://daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.jpg"
-                  alt="Album"
-                />
-              </figure>
-              <div className="card-body">
-                <h2 className="card-title">Display mainonta</h2>
-                <p>
-                  Pitäisikö sinun saada boostattua yrityksesi näkyvyyttä
-                  maksimaalisesti? Display mainonnalla saadaan yrityksesi
-                  mainokset laajalle kohderyhmällä, niin Googlessa, kuin
-                  muillakin sivustoilla.
-                </p>
-                <div className="card-actions justify-end">
-                  <button className="btn btn-primary">Listen</button>
-                </div>
+            <div className="collapse collapse-arrow join-item border border-base-300">
+              <input type="radio" name="my-accordion-4" />
+              <div className="collapse-title text-xl font-medium">
+                Konversioseurannan asennus <span>Alkaen 150€</span>
+              </div>
+              <div className="collapse-content">
+                <p>Määritetään verkkosivun konversiot ja asennetaan seuranta integraatiot edistyksellisen seurannan mahdollistamiseksi.</p>
               </div>
             </div>
-
-            <div className="card lg:card-side bg-base-100 shadow-xl">
-              <figure>
-                <img
-                  src="https://daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.jpg"
-                  alt="Album"
-                />
-              </figure>
-              <div className="card-body">
-                <h2 className="card-title">Youtube Mainonta</h2>
-                <p>
-                  Löytyykö sinulta hyvää videosisältöä, jota haluaisit saattaa
-                  potentiaalisten asiakkaiden eteen? Youtube mainonta on tehokas
-                  keino saada asiakkaat sitoutettua sinun ratkaisuihin.
-                </p>
-                <div className="card-actions justify-end">
-                  <button className="btn btn-primary">Listen</button>
-                </div>
+            <div className="collapse collapse-arrow join-item border border-base-300">
+              <input type="radio" name="my-accordion-4" />
+              <div className="collapse-title text-xl font-medium">
+                Optimointipalvelu <span>Alkaen 50€/kk</span>
+              </div>
+              <div className="collapse-content">
+                <p>Kehittämispalvelu, jossa analysoidaan Google Adsin nykytilaa ja tehdään parannuksia mainonnan tehokkuuden parantamiseksi. Hinnoittelu määräytyy kampanjoiden määrän ja vaadittavien toimenpiteiden mukaan.</p>
               </div>
             </div>
-
-            {/* Additional services can be listed here if you offer more than the above */}
           </div>
+
+         
 
           <div className="text-center mt-16">
             <h3 className="text-3xl font-bold text-gray-800 mb-6">

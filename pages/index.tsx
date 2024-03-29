@@ -10,7 +10,7 @@ import { CMS_NAME } from "../lib/constants";
 
 export default function Index({ allPosts: { edges }, preview }) {
   const heroPost = edges[0]?.node;
-  const morePosts = edges.slice(1);
+  const morePosts = edges.slice(0);
 
   return (
     <Layout preview={preview}>
@@ -20,17 +20,19 @@ export default function Index({ allPosts: { edges }, preview }) {
       <Container>
 
 
-      <div className="hero min-h-screen bg-base-200">
-      <div className="hero-content flex flex-col lg:flex-row items-center gap-8">
+      <div className="hero min-h-screen bg-base-200"   style={{
+    backgroundImage: `url('https://mleuki3qgkxz.i.optimole.com/co-ZpyQ-z6lrsJ8S/w:5824/h:3264/rt:auto/g:ce/id:ecc0d1ef019c30480a80e1f39bd4ed73/directUpload/vihreakuula_Create_a_wide_high-resolution_image_that_encapsulat_96446d6e-b7c8-4a49-ae34-cc8bdec4c970.png')`,
+  }}>
+      <div className="hero-content flex flex-col lg:flex-row items-center gap-8 glass">
         {/* Headline container */}
         <div className="flex-1 text-center lg:text-left p-4 flex flex-col justify-center">
-          <h1 className="text-5xl font-bold">Welcome to Our World</h1>
-          <p className="mt-4">Discover our latest innovations and explore our vision for the future.</p>
+          <h1 className="text-5xl font-bold">Hakukoneseppä Ilari Schmidt</h1>
+          <p className="mt-4">Autan yrityksiä saamaan näkyvyyttä ja tuloksia Google Ads mainoskampanjoilla.</p>
         </div>
         
         {/* Video container */}
         <div className="flex-1 flex justify-center items-center">
-          <div className="aspect-w-16 aspect-h-9 w-full max-w-full lg:max-w-2xl">
+          <div className="flex-1 aspect-w-16 aspect-h-9 w-full max-w-full lg:max-w-2xl">
             <iframe
               className="w-full h-full"
               src="https://www.youtube.com/embed/YOUR_VIDEO_ID" // Replace with your video ID
@@ -45,7 +47,7 @@ export default function Index({ allPosts: { edges }, preview }) {
     </div>
 
 
-        <div className="flex justify-center">
+        <div className="flex justify-center my-10">
           <div className="carousel carousel-center rounded-box">
             <div className="carousel-item">
               <img
