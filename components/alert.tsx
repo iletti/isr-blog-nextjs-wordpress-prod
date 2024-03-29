@@ -11,7 +11,7 @@ export default function Alert({ preview }) {
       })}
     >
       <Container>
-        <div className="py-2 text-center text-sm">
+        <div className="py-2 text-center text-lg">
           {preview ? (
             <>
               This is a page preview.{" "}
@@ -25,7 +25,7 @@ export default function Alert({ preview }) {
             </>
           ) : (
             <>
-              Firmalle lisää näkyvyyttä? Tutustu palveluihini{" "}
+              Tilaa maksuton yrityksesi verkkonäkyvyyden kartoitus {" "}
               <a
                 href={`https://ilarischimdt.com/palvelut`}
                 className="underline hover:text-success duration-200 transition-colors"

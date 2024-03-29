@@ -19,42 +19,61 @@ export default function Index({ allPosts: { edges }, preview }) {
       </Head>
       <Container>
 
-    
-      <div className="hero min-h-screen">
-  <div className="hero-content flex-col lg:flex-row-reverse">
-    <div className="w-full lg:max-w-sm xl:max-w-md">
-      <div className="aspect-w-16 aspect-h-9">
-        <iframe
-          className="w-full h-full"
-          src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
-          title="YouTube video player"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe>
+
+      <div className="hero min-h-screen bg-base-200">
+      <div className="hero-content flex flex-col lg:flex-row items-center gap-8">
+        {/* Headline container */}
+        <div className="flex-1 text-center lg:text-left p-4 flex flex-col justify-center">
+          <h1 className="text-5xl font-bold">Welcome to Our World</h1>
+          <p className="mt-4">Discover our latest innovations and explore our vision for the future.</p>
+        </div>
+        
+        {/* Video container */}
+        <div className="flex-1 flex justify-center items-center">
+          <div className="aspect-w-16 aspect-h-9 w-full max-w-full lg:max-w-2xl">
+            <iframe
+              className="w-full h-full"
+              src="https://www.youtube.com/embed/YOUR_VIDEO_ID" // Replace with your video ID
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
+        </div>
       </div>
     </div>
-    <div>
-      <h1 className="text-5xl font-bold">Hakukoneseppä Ilari Schmidt</h1>
-      <p className="py-6">Tervetuloa sivustolleni. Toteutan Google Ads projekteja näkyvyyttä kaipaaville asiakkailleni</p>
-      <button className="btn btn-primary">Katso Palvelut</button>
-    </div>
-  </div>
-</div>
 
 
+        <div className="flex justify-center">
+          <div className="carousel carousel-center rounded-box">
+            <div className="carousel-item">
+              <img
+                src="https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg"
+                alt="Pizza"
+              />
+            </div>
+            <div className="carousel-item">
+              <img
+                src="https://daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.jpg"
+                alt="Pizza"
+              />
+            </div>
+            <div className="carousel-item">
+              <img
+                src="https://daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.jpg"
+                alt="Pizza"
+              />
+            </div>
+            <div className="carousel-item">
+              <img
+                src="https://daisyui.com/images/stock/photo-1494253109108-2e30c049369b.jpg"
+                alt="Pizza"
+              />
+            </div>
+          </div>
+        </div>
 
-        <Intro />
-        {heroPost && (
-          <HeroPost
-            title={heroPost.title}
-            coverImage={heroPost.featuredImage}
-            date={heroPost.date}
-            author={heroPost.author}
-            slug={heroPost.slug}
-            excerpt={heroPost.excerpt}
-          />
-        )}
         {morePosts.length > 0 && <MoreStories posts={morePosts} />}
       </Container>
     </Layout>
