@@ -20,7 +20,7 @@ export default function Index({ allPosts: { edges }, preview }) {
       <Container>
 
     
-      <div className="hero min-h-screen bg-base-200">
+      <div className="hero min-h-screen">
   <div className="hero-content flex-col lg:flex-row-reverse">
     <div className="w-full lg:max-w-sm xl:max-w-md">
       <div className="aspect-w-16 aspect-h-9">
