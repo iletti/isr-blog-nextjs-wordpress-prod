@@ -23,7 +23,7 @@ export default function Menu() {
                <div className="flex justify-center">
                    <ul className="menu menu-horizontal">
                      <li><a href="/palvelut">Palvelut</a></li>
-                     <li><a href="/#blogi">Blogi</a></li>
+                     <li><a href="/blogi">Blogi</a></li>
                      <li><a href="/tietoa">Tietoa</a></li>
                    </ul>
                </div>

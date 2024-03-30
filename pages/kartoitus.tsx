@@ -12,7 +12,13 @@ const AuditLandingPage = () => {
         <meta name="description" content="Tilaa ilmainen näkyvyyden kartoitus ja saa ideoita yrityksesisi näkyvyyden parantamiseksi" />
       </Head>
 
-      <div className="hero min-h-screen bg-base-200">
+      <div className="hero min-h-screen"
+      
+      style={{
+        backgroundImage: `url('https://mleuki3qgkxz.i.optimole.com/co-ZpyQ-J2UQX3md/w:auto/h:auto/q:auto/id:22efc58e07bf2f0bf5e0693608e8ed7c/directUpload/vihreak212uula_representation_of_an_dynamic_mapping_and_compiling__d5bc760d-58e8-4e96-acf7-89e0c8ef096d.png')`,
+      }}
+      
+      >
         <div className="hero-content flex-col lg:flex-row">
           <div className="text-center lg:text-left max-w-screen-sm">
             <h1 className="text-5xl font-bold text-left">Tilaa ilmainen verkkonäkyvyyden kartoitus yrityksellesi</h1>
