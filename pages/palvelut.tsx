@@ -13,30 +13,35 @@ const Services = ({ preview }) => {
         />
       </Head>
 
+      {/* Hero Section */}
       <div
-        className="hero min-h-screen"
+        className="hero min-h-screen bg-cover bg-center"
         style={{
-          backgroundImage: `url('https://mleuki3qgkxz.i.optimole.com/co-ZpyQ-3_GPP-fY/w:auto/h:auto/q:auto/id:d515884a747a32e893cc0083b74b2568/directUpload/vihreakuula_Create_an_image_featuring_an_analytics_review_meeti_2f52fce7-2810-4e79-a0e8-ba9add42a515.png')`,
+          backgroundImage:
+            "url(https://mleuki3qgkxz.i.optimole.com/co-ZpyQ-_nizr8Bj/w:auto/h:auto/q:auto/id:f1a3b00c9de99ec58715f4a3d02f64ad/directUpload/vihreakuula_Design_an_image_symbolizing_opportunity_and_growth__69ccb930-f614-4987-8153-1199672e2e5c.png)",
         }}
       >
         <div className="hero-overlay bg-opacity-60"></div>
-        <div className="hero-content text-center text-neutral-content glass">
-          <div className="max-w-md">
-            <h1 className="mb-5 text-5xl font-bold">Google Ads palvelut</h1>
-            <p className="mb-5">
+        <div className="hero-content text-center text-neutral-content">
+          <div>
+            <h1 className="text-3xl md:text-5xl font-bold">
+              Google Ads palvelut
+            </h1>
+            <p className="mt-4 text-base md:text-lg">
               Maksimoi yrityksesi näkyvyys Googlessa Ilari Schmidtin avulla.
             </p>
           </div>
         </div>
       </div>
 
-      <div className="flex items-center justify-center min-h-screen bg-gray-100 py-10">
-        <div className="w-8/12 mx-auto px-4">
+      {/* Services and Pricing Section */}
+      <div className="bg-gray-100 py-10">
+        <div className="container px-4 mx-auto">
           <div className="text-center mb-10">
-            <h2 className="text-4xl font-bold text-gray-800 mb-4">
+            <h2 className="text-2xl md:text-4xl font-bold text-gray-800">
               Palvelut ja Hinnoittelu
             </h2>
-            <p className="text-xl text-gray-600">
+            <p className="mt-4 text-base md:text-xl text-gray-600">
               Oletko valmis kasvattamaan yrityksesi näkyvyyttä Googlessa ja
               saamaan enemmän laadukkaita liidejä? Freelancer Ilari Schmidt
               tarjoaa kattavat Google Ads -palvelut, jotka on suunniteltu
@@ -45,62 +50,136 @@ const Services = ({ preview }) => {
             </p>
           </div>
 
-          <div>           <iframe
-              className="w-full aspect-video"
-              src="https://www.youtube.com/embed/YOUR_VIDEO_ID" // Replace with your video ID
+          {/* Video Section */}
+          <div className="w-full overflow-hidden px-4">
+            <iframe
+              className="aspect-video w-full"
+              src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
               title="YouTube video player"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             ></iframe>
-</div>
+          </div>
 
-          <div className="join join-vertical w-full">
-            <div className="collapse collapse-arrow join-item border border-base-300">
-              <input type="radio" name="my-accordion-4" defaultChecked />
-              <div className="collapse-title text-xl font-medium">
-                Google hakusanakampanja <span>200€ + mainosbudjetti</span>
+          <div className="bg-gray-100 py-10">
+            <div className="container mx-auto px-4">
+              {/* Accordion Section for Services */}
+              <div className="w-full mb-8">
+                {/* Accordion Item 1 */}
+                <div className="collapse collapse-arrow border border-base-300 bg-white rounded-box">
+                  <input
+                    type="radio"
+                    name="my-accordion"
+                    className="peer"
+                    id="accordion1"
+                    defaultChecked
+                  />
+                  <div className="collapse-title text-xl font-medium peer-checked:bg-primary peer-checked:text-white">
+                    Google hakusanakampanja{" "}
+                    <span className="text-secondary">
+                      200€ + mainosbudjetti
+                    </span>
+                  </div>
+                  <div className="collapse-content peer-checked:bg-primary peer-checked:text-white peer-checked:bg-opacity-90">
+                    <p>
+                      Määritetään tärkeimmät hakusanat, joissa yrityksesi tulee
+                      näkyä ja rakennetaan niiden ympärille relevantit
+                      mainokset. Näin saadaan ohjattua potentiaalisia asiakkaita
+                      palvelujesi äärelle. Kampanjan hinta on kertamaksu. Voit
+                      itse määrittää kuukausitasolla käytettävän mainosbudjetin.
+                      Mainonnan optimoinnista, joka on ainakin pari ekaa
+                      kuukautta järkevää toteuttaa, sovitaan erikseen.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Accordion Item 2 */}
+                <div className="collapse collapse-arrow border border-base-300 bg-white rounded-box">
+                  <input
+                    type="radio"
+                    name="my-accordion"
+                    className="peer"
+                    id="accordion1"
+                    defaultChecked
+                  />
+                  <div className="collapse-title text-xl font-medium peer-checked:bg-primary peer-checked:text-white">
+                    Konversioseurannan asennus{" "}
+                    <span className="text-secondary">alkaen 150€</span>
+                  </div>
+                  <div className="collapse-content peer-checked:bg-primary peer-checked:text-white peer-checked:bg-opacity-90">
+                    <p>
+                      Määritetään verkkosivun konversiot ja asennetaan seuranta
+                      integraatiot edistyksellisen seurannan mahdollistamiseksi.{" "}
+                    </p>
+                  </div>
+                </div>
+
+                <div className="collapse collapse-arrow border border-base-300 bg-white rounded-box">
+                  <input
+                    type="radio"
+                    name="my-accordion"
+                    className="peer"
+                    id="accordion1"
+                    defaultChecked
+                  />
+                  <div className="collapse-title text-xl font-medium peer-checked:bg-primary peer-checked:text-white">
+                    SEO Hakukoneoptimointi{" "}
+                    <span className="text-secondary">50€ + auditointi</span>
+                  </div>
+                  <div className="collapse-content peer-checked:bg-primary peer-checked:text-white peer-checked:bg-opacity-90">
+                    <p>
+                      Määritetään tärkeimmät hakusanat, joissa yrityksesi tulee
+                      näkyä ja rakennetaan niiden ympärille relevantit
+                      mainokset. Näin saadaan ohjattua potentiaalisia asiakkaita
+                      palvelujesi äärelle. Kampanjan hinta on kertamaksu. Voit
+                      itse määrittää kuukausitasolla käytettävän mainosbudjetin.
+                      Mainonnan optimoinnista, joka on ainakin pari ekaa
+                      kuukautta järkevää toteuttaa, sovitaan erikseen.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="collapse collapse-arrow border border-base-300 bg-white rounded-box">
+                  <input
+                    type="radio"
+                    name="my-accordion"
+                    className="peer"
+                    id="accordion1"
+                    defaultChecked
+                  />
+                  <div className="collapse-title text-xl font-medium peer-checked:bg-primary peer-checked:text-white">
+                    Optimointi{" "}
+                    <span className="text-secondary">alkaen 50€/kk</span>
+                  </div>
+                  <div className="collapse-content peer-checked:bg-primary peer-checked:text-white peer-checked:bg-opacity-90">
+                    <p>
+                    Kehittämispalvelu, jossa analysoidaan Google Adsin nykytilaa
+                  ja tehdään parannuksia mainonnan tehokkuuden parantamiseksi.
+                  Hinnoittelu määräytyy kampanjoiden määrän ja vaadittavien
+                  toimenpiteiden mukaan.
+                    </p>
+                  </div>
+                </div>
+
+               
               </div>
-              <div className="collapse-content">
-                <p>   Määritetään tärkeimmät hakusanat, joissa yrityksesi tulee
-                  näkyä ja rakennetaan niiden ympärille relevantit mainokset.
-                  Näin saadaan ohjattua potentiaalisia asiakkaita palvelujesi
-                  äärelle. Kampanjan hinta on kertamaksu. Voit itse määrittää kuukausitasolla käytettävän mainosbudjetin. Mainonnan optimoinnista, joka on ainakin pari ekaa kuukautta järkevää toteuttaa, sovitaan erikseen.</p>
-              </div>
-            </div>
-            <div className="collapse collapse-arrow join-item border border-base-300">
-              <input type="radio" name="my-accordion-4" />
-              <div className="collapse-title text-xl font-medium">
-                Konversioseurannan asennus <span>Alkaen 150€</span>
-              </div>
-              <div className="collapse-content">
-                <p>Määritetään verkkosivun konversiot ja asennetaan seuranta integraatiot edistyksellisen seurannan mahdollistamiseksi.</p>
-              </div>
-            </div>
-            <div className="collapse collapse-arrow join-item border border-base-300">
-              <input type="radio" name="my-accordion-4" />
-              <div className="collapse-title text-xl font-medium">
-                Optimointipalvelu <span>Alkaen 50€/kk</span>
-              </div>
-              <div className="collapse-content">
-                <p>Kehittämispalvelu, jossa analysoidaan Google Adsin nykytilaa ja tehdään parannuksia mainonnan tehokkuuden parantamiseksi. Hinnoittelu määräytyy kampanjoiden määrän ja vaadittavien toimenpiteiden mukaan.</p>
+
+              {/* Call to Action Section */}
+              <div className="text-center">
+                <h3 className="text-3xl font-bold text-gray-800 mb-4">
+                  Oletko valmis kasvattamaan yritystäsi?
+                </h3>
+                <p className="text-xl text-gray-600 mb-6">
+                  Otahan yhteyttä, niin jutellaan liiketoimintatarpeistasi ja
+                  katsotaan voinko auttaa yrityksesi näkyvyyden kanssa.
+                </p>
+                <button className="btn btn-primary btn-lg">Ota yhteyttä</button>
               </div>
             </div>
           </div>
 
-         
-
-          <div className="text-center mt-16">
-            <h3 className="text-3xl font-bold text-gray-800 mb-6">
-              Oletko valmis kasvattamaan yritystäsi?
-            </h3>
-            <p className="text-xl text-gray-600 mb-6">
-              Otahan yhteyttä, niin jutellaan liiketoimintatarpeistasi ja
-              katsotaan voinko auttaa yrityksesi näkyvyyden kanssa.
-            </p>
-            <button className="btn btn-primary btn-lg">Ota yhteyttä</button>
-          </div>
-        </div>
+     </div>
       </div>
 
       <div>

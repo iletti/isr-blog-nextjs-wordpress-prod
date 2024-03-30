@@ -20,13 +20,13 @@ export default function Index({ allPosts: { edges }, preview }) {
       <Container>
 
 
-      <div className="hero min-h-screen bg-base-200"   style={{
+      <div className="hero min-h-screen bg-base-200 "   style={{
     backgroundImage: `url('https://mleuki3qgkxz.i.optimole.com/co-ZpyQ-z6lrsJ8S/w:5824/h:3264/rt:auto/g:ce/id:ecc0d1ef019c30480a80e1f39bd4ed73/directUpload/vihreakuula_Create_a_wide_high-resolution_image_that_encapsulat_96446d6e-b7c8-4a49-ae34-cc8bdec4c970.png')`,
   }}>
-      <div className="hero-content flex flex-col lg:flex-row items-center gap-8 glass">
+      <div className="  md:hero-content block md:flex md:flex-col lg:flex-row items-center glass">
         {/* Headline container */}
-        <div className="flex-1 text-center lg:text-left p-4 flex flex-col justify-center">
-          <h1 className="text-5xl font-bold">Hakukoneseppä Ilari Schmidt</h1>
+        <div className=" md:flex-1 text-center  justify-center">
+          <h1 className="text-[6vw] sm:text-5xl font-bold break-normal">Hakukoneseppä Ilari Schmidt</h1>
           <p className="mt-4">Autan yrityksiä saamaan näkyvyyttä ja tuloksia Google Ads mainoskampanjoilla.</p>
         </div>
         
