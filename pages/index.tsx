@@ -47,34 +47,60 @@ export default function Index({ allPosts: { edges }, preview }) {
     </div>
 
 
-        <div className="flex justify-center my-10">
-          <div className="carousel carousel-center rounded-box">
-            <div className="carousel-item">
-              <img
-                src="https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg"
-                alt="Pizza"
-              />
-            </div>
-            <div className="carousel-item">
-              <img
-                src="https://daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.jpg"
-                alt="Pizza"
-              />
-            </div>
-            <div className="carousel-item">
-              <img
-                src="https://daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.jpg"
-                alt="Pizza"
-              />
-            </div>
-            <div className="carousel-item">
-              <img
-                src="https://daisyui.com/images/stock/photo-1494253109108-2e30c049369b.jpg"
-                alt="Pizza"
-              />
-            </div>
-          </div>
-        </div>
+
+    <div className="flex justify-center">
+      <div className="carousel carousel-center max-w-full p-4 space-x-4 m-4 rounded-box">
+      <div className="carousel-item relative hover:drop-shadow-md">
+  <img src="https://mleuki3qgkxz.i.optimole.com/co-ZpyQ-JgWZtQES/w:200/h:384/id:1ba0464bb220ecdff95880a61dd9d42a/directUpload/1.png" className="rounded-box w-full object-cover" />
+  <div className="absolute inset-0 flex items-center justify-center">
+    <h3 className="text-white text-xl font-bold px-4 text-center">
+      Hakukonemainonta
+    </h3>
+  </div>
+</div>
+
+
+<div className="carousel-item relative hover:drop-shadow-md">
+  <img src="https://mleuki3qgkxz.i.optimole.com/co-ZpyQ-x0C_StAY/w:200/id:c8878edba58e8c3085ad46126bf27eee/directUpload/3.png" className="rounded-box w-full object-cover" />
+  <div className="absolute inset-0 flex items-center justify-center">
+    <h3 className="text-white text-xl font-bold px-4 text-center">
+      SEO
+    </h3>
+  </div>
+</div>
+
+<div className="carousel-item relative hover:drop-shadow-md">
+  <img src="https://mleuki3qgkxz.i.optimole.com/co-ZpyQ-6Oi6E8xf/w:200/id:b6c3e6d12eb8cc25abc47eb384b02c12/directUpload/2.png" className="rounded-box w-full object-cover" />
+  <div className="absolute inset-0 flex items-center justify-center">
+    <h3 className="text-white text-xl font-bold px-4 text-center">
+      Analytiikka
+    </h3>
+  </div>
+</div>
+
+
+<div className="carousel-item relative hover:drop-shadow-md">
+  <img src="https://mleuki3qgkxz.i.optimole.com/co-ZpyQ-cxDiR6_d/w:200/id:65c5bb8759447cc69ce475a282228b9e/directUpload/4.png" className="rounded-box w-full object-cover" />
+  <div className="absolute inset-0 flex items-center justify-center">
+    <h3 className="text-white text-xl font-bold px-4 text-center">
+      Optimointi
+    </h3>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+    </div>
+    </div>
+
+
+
 
         {morePosts.length > 0 && <MoreStories posts={morePosts} />}
       </Container>
