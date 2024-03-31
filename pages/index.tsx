@@ -28,7 +28,7 @@ export default function Index({ allPosts: { edges }, preview }) {
           <div className="  md:hero-content block md:flex md:flex-col lg:flex-row items-center glass">
             {/* Headline container */}
             <div className=" md:flex-1 text-center  justify-center">
-              <h1 className="text-[6vw] sm:text-5xl font-bold break-normal dark:text-black">
+              <h1 className=" m-4 text-[6vw] sm:text-5xl font-bold break-normal dark:text-black">
                 Hakukoneseppä Ilari Schmidt
               </h1>
               <p className="mt-4 dark:text-black">
