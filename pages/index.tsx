@@ -26,8 +26,8 @@ export default function Index({ allPosts: { edges }, preview }) {
       <div className="  md:hero-content block md:flex md:flex-col lg:flex-row items-center glass">
         {/* Headline container */}
         <div className=" md:flex-1 text-center  justify-center">
-          <h1 className="text-[6vw] sm:text-5xl font-bold break-normal">Hakukoneseppä Ilari Schmidt</h1>
-          <p className="mt-4">Autan yrityksiä saamaan näkyvyyttä ja tuloksia Google Ads mainoskampanjoilla.</p>
+          <h1 className="text-[6vw] sm:text-5xl font-bold break-normal dark:text-black">Hakukoneseppä Ilari Schmidt</h1>
+          <p className="mt-4 dark:text-black">Autan yrityksiä saamaan näkyvyyttä ja tuloksia Google Ads mainoskampanjoilla.</p>
         </div>
         
         {/* Video container */}

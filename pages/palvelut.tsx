@@ -35,13 +35,13 @@ const Services = ({ preview }) => {
       </div>
 
       {/* Services and Pricing Section */}
-      <div className="bg-gray-100 py-10">
+      <div className="py-10">
         <div className="container px-4 mx-auto">
           <div className="text-center mb-10">
-            <h2 className="text-2xl md:text-4xl font-bold text-gray-800">
+            <h2 className="text-2xl md:text-4xl font-bold">
               Palvelut ja Hinnoittelu
             </h2>
-            <p className="mt-4 text-base md:text-xl text-gray-600">
+            <p className="mt-4 text-base md:text-xl">
               Oletko valmis kasvattamaan yrityksesi näkyvyyttä Googlessa ja
               saamaan enemmän laadukkaita liidejä? Freelancer Ilari Schmidt
               tarjoaa kattavat Google Ads -palvelut, jotka on suunniteltu
@@ -62,12 +62,12 @@ const Services = ({ preview }) => {
             ></iframe>
           </div>
 
-          <div className="bg-gray-100 py-10">
+          <div className="py-10">
             <div className="container mx-auto px-4">
               {/* Accordion Section for Services */}
               <div className="w-full mb-8">
                 {/* Accordion Item 1 */}
-                <div className="collapse collapse-arrow border border-base-300 bg-white rounded-box">
+                <div className="collapse collapse-arrow border border-base-300 rounded-box">
                   <input
                     type="radio"
                     name="my-accordion"
@@ -95,7 +95,7 @@ const Services = ({ preview }) => {
                 </div>
 
                 {/* Accordion Item 2 */}
-                <div className="collapse collapse-arrow border border-base-300 bg-white rounded-box">
+                <div className="collapse collapse-arrow border border-base-300  rounded-box">
                   <input
                     type="radio"
                     name="my-accordion"
@@ -115,7 +115,7 @@ const Services = ({ preview }) => {
                   </div>
                 </div>
 
-                <div className="collapse collapse-arrow border border-base-300 bg-white rounded-box">
+                <div className="collapse collapse-arrow border border-base-300  rounded-box">
                   <input
                     type="radio"
                     name="my-accordion"
@@ -140,7 +140,7 @@ const Services = ({ preview }) => {
                   </div>
                 </div>
 
-                <div className="collapse collapse-arrow border border-base-300 bg-white rounded-box">
+                <div className="collapse collapse-arrow border border-base-300  rounded-box">
                   <input
                     type="radio"
                     name="my-accordion"
@@ -167,10 +167,10 @@ const Services = ({ preview }) => {
 
               {/* Call to Action Section */}
               <div className="text-center">
-                <h3 className="text-3xl font-bold text-gray-800 mb-4">
+                <h3 className="text-3xl font-bold mb-4">
                   Oletko valmis kasvattamaan yritystäsi?
                 </h3>
-                <p className="text-xl text-gray-600 mb-6">
+                <p className="text-xl mb-6">
                   Otahan yhteyttä, niin jutellaan liiketoimintatarpeistasi ja
                   katsotaan voinko auttaa yrityksesi näkyvyyden kanssa.
                 </p>
