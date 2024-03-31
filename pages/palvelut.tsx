@@ -177,7 +177,7 @@ const Services = ({ preview }) => {
                     Otahan yhteyttä, niin jutellaan liiketoimintatarpeistasi ja
                     katsotaan voinko auttaa yrityksesi näkyvyyden kanssa.
                   </p>
-                  <button className="btn btn-primary btn-lg">Ota yhteyttä</button>
+              
                 </div>
               </div>
             </div>

@@ -2,8 +2,20 @@ import React from "react"
 
 const reference = () => {
     return (
-<div>
+<div className="w-1/2 flex-col justify-center m-auto">
     <h2 className="text-center text-3xl">Referenssit</h2>
+
+    <div className="chat chat-start">
+      <div className="chat-header">
+        Joonatan Juurioja
+        <time className="text-xs opacity-50"></time>
+      </div>
+      <div className="chat-bubble bg-green-500 text-white">Suurin osa asiakkaistamme on pieniä yrityksiä, joilla on rajallinen budjetti. Ilarin kautta mainontahommat on aina järjestyneet asiakkaillemme järkevällä hinnalla.</div>
+      <div className="chat-footer opacity-50">
+       Yrittäjä, Populentia Oy
+      </div>
+    </div>
+
     <div className="chat chat-start">
       <div className="chat-header">
         Riikka Ahmamaniemi

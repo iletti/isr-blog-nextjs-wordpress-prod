@@ -38,8 +38,8 @@ const OtaYhteytta = () => {
       </div>
 
 
-        <form className="mt-8 flex flex-col md:flex-row justify-around items-center space-y-4 md:space-y-0 md:space-x-2 w-full sm:w-auto">
-        <div className="input-group sm:flex">
+        <form className="m-4 flex justify-center">
+        <div className=" input-group sm:flex">
           <input
             type="text"
             placeholder="Sähköpostisi tai puhelinnumerosi"
