@@ -5,7 +5,9 @@ export default function Menu() {
 
        <Container>
 
-<div id="main-content" className="flex flex-col lg:flex-row justify-center items-center space-y-4 lg:space-y-0 lg:space-x-4 bg-base-200">
+<div id="main-content" className="flex flex-col lg:flex-row justify-center items-center space-y-4 lg:space-y-0 lg:space-x-4 bg-base-200 drop-shadow-md border-b-1 border-gray
+
+">
     <div>
         <ul className="menu menu-horizontal p-0">
             <li>

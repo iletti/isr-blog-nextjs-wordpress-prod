@@ -17,7 +17,7 @@ const AuditLandingPage = () => {
         <div className="hero min-h-screen"
         
         style={{
-          backgroundImage: `url('https://mleuki3qgkxz.i.optimole.com/co-ZpyQ-J2UQX3md/w:auto/h:auto/q:auto/id:22efc58e07bf2f0bf5e0693608e8ed7c/directUpload/vihreak212uula_representation_of_an_dynamic_mapping_and_compiling__d5bc760d-58e8-4e96-acf7-89e0c8ef096d.png')`,
+          backgroundImage: `url('https://mleuki3qgkxz.i.optimole.com/co-ZpyQ-KWpi1i3o/w:auto/h:auto/q:auto/id:93e11c017b6bb1589a36877c92a60c9c/directUpload/vihreakuula_Design_a_detailed_professional_image_showing_a_vari_59bdd763-13d7-4b6e-b383-b17191587c7e.png')`,
         }}
         
         >

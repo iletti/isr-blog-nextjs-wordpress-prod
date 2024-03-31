@@ -2,6 +2,7 @@
 import Head from 'next/head';
 import Layout from '../components/layout';
 import Container from '../components/container';
+import Reference from '../components/reference';
 
 const About = ({ preview }) => {
   return (
@@ -12,9 +13,9 @@ const About = ({ preview }) => {
       </Head>
 
       <Container>
-        <div className="hero  bg-[url('https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg')]" style={{backgroundPosition: 'center'}}>
-          <div className="hero-overlay bg-opacity-60"></div>
-          <div className="hero-content text-center text-neutral-content">
+        <div className="hero min-h-screen  bg-[url('https://mleuki3qgkxz.i.optimole.com/co-ZpyQ-mBeyOIfS/w:auto/h:auto/q:auto/id:c4d7f9e549c6bb5836a199029a0d5ce7/directUpload/vihreakuula_Illustrate_a_strategic_planning_session_for_Google__fc019ed4-eaa4-43f7-b8fc-c7544d245d13.png')]" style={{backgroundPosition: 'center'}}>
+          <div className=" bg-opacity-60"></div>
+          <div className="hero-content text-center glass">
             <div className="max-w-md">
               <h1 className="mb-5 text-5xl font-bold">Tietoa minusta</h1>
               <p className="mb-5 font-bold">  ⚒️ Hakukoneseppä Ilari Schmidt.</p>
@@ -42,6 +43,9 @@ const About = ({ preview }) => {
                 <li>Työkokemusta löytyy yhteensä 3 vuottaa inhouse työntekijänä digimarkkinoijana ja 7 vuotta yrittäjänä.</li>
               </ul>
             </div>
+
+            <Reference />
+
             <div className="text-center">
               <h3 className="text-3xl font-bold mb-6">Jutellaanko?</h3>
               <p className="text-xl mb-6">Haluatko tietää lisää siitä, miten voimme tehdä yhteistyötä? Ota yhteyttä, niin keskustellaan yrityksesi tavoitteista ja siitä, miten voin tukea kasvuasi Google Ads -palvelun avulla.</p>
