@@ -1,6 +1,7 @@
 // palvelut.tsx
 import Head from "next/head";
 import Layout from "../components/layout";
+import OtaYhteytta from "../components/OtaYhteytta";
 
 const Services = ({ preview }) => {
   return (
@@ -178,6 +179,10 @@ const Services = ({ preview }) => {
               </div>
             </div>
           </div>
+
+          <OtaYhteytta />
+
+
 
      </div>
       </div>
