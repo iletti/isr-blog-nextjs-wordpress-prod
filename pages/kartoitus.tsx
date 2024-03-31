@@ -9,7 +9,7 @@ const AuditLandingPage = () => {
   return (
     <Layout preview={previewValue}>
       <Head>
-        <title>Tilaa ilmainen verkkonäkyvyyden kartoitus yrityksellesi</title>
+        <title>Tilaa ilmainen Google-näkyvyys kartoitus yrityksellesi</title>
         <meta name="description" content="Tilaa ilmainen näkyvyyden kartoitus ja saa ideoita yrityksesisi näkyvyyden parantamiseksi" />
       </Head>
 
