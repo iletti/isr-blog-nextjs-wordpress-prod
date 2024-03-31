@@ -2,7 +2,7 @@ import React from "react"
 
 const reference = () => {
     return (
-<div className="w-1/2 flex-col justify-center m-auto">
+<div className="md:w-1/2 flex-col justify-center m-auto">
     <h2 className="text-center text-3xl">Referenssit</h2>
 
     <div className="chat chat-start">

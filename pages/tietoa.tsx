@@ -49,7 +49,6 @@ const About = ({ preview }) => {
             <div className="text-center">
               <h3 className="text-3xl font-bold mb-6">Jutellaanko?</h3>
               <p className="text-xl mb-6">Haluatko tietää lisää siitä, miten voimme tehdä yhteistyötä? Ota yhteyttä, niin keskustellaan yrityksesi tavoitteista ja siitä, miten voin tukea kasvuasi Google Ads -palvelun avulla.</p>
-              <button className="btn btn-primary btn-lg">Ota yhteyttä</button>
             </div>
           </div>
         </div>
