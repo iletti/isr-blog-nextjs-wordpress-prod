@@ -17,8 +17,8 @@ const About = ({ preview }) => {
           <div className=" bg-opacity-60"></div>
           <div className="hero-content text-center glass">
             <div className="max-w-md">
-              <h1 className="mb-5 text-5xl font-bold">Tietoa minusta</h1>
-              <p className="mb-5 font-bold">  ⚒️ Hakukoneseppä Ilari Schmidt.</p>
+              <h1 className="mb-5 text-5xl font-bold dark:text-black">Tietoa minusta</h1>
+              <p className="mb-5 font-bold dark:text-black">  ⚒️ Hakukoneseppä Ilari Schmidt.</p>
             </div>
           </div>
         </div>

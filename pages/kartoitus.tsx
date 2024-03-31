@@ -23,12 +23,12 @@ const AuditLandingPage = () => {
         >
           <div className="hero-content flex-col lg:flex-row glass">
             <div className="text-center lg:text-left max-w-screen-sm">
-              <h1 className="text-5xl font-bold text-left">Tilaa ilmainen verkkonäkyvyyden kartoitus yrityksellesi</h1>
-              <p className="py-6 text-left">
+              <h1 className="text-5xl font-bold text-left dark:text-black">Tilaa ilmainen verkkonäkyvyyden kartoitus yrityksellesi</h1>
+              <p className="py-6 text-left dark:text-black">
                 Selvitä yrityksesi verkkonäkyvyyden tila hakukoneiden hakutuloksissa. Tilaa maksuton verkkonäkyvyyden kartoitus ja saa tietooosi miten voit kehittää yrityksesi näkyvyyttä verkossa.
               </p>
-              <h3 className='text-left'>Saat:</h3>
-              <ul className="text-left">
+              <h3 className='text-left dark:text-black'>Saat:</h3>
+              <ul className="text-left dark:text-black">
                 <li>✔Teknisen raportin verkkosivustosi tilasta</li>
                 <li>✔Raportin hakukonenäkyvyyden tämän hetkisestä tilasta </li>
                 <li>✔Checklistan toimenpiteistä näkyvyyden parantamiseksi</li>

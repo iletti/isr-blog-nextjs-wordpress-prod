@@ -27,10 +27,10 @@ const Services = ({ preview }) => {
           <div className=" bg-opacity-60"></div>
           <div className="hero-content text-center glass">
             <div>
-              <h1 className="text-3xl md:text-5xl font-bold">
+              <h1 className="text-3xl md:text-5xl font-bold dark:text-black">
                 Google Ads palvelut
               </h1>
-              <p className="mt-4 text-base md:text-lg">
+              <p className="mt-4 text-base md:text-lg dark:text-black">
                 Maksimoi yrityksesi näkyvyys Googlessa Ilari Schmidtin avulla.
               </p>
             </div>
