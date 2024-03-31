@@ -25,9 +25,9 @@ export default function Alert({ preview }) {
             </>
           ) : (
             <>
-              Tilaa maksuton yrityksesi verkkonäkyvyyden kartoitus {" "}
+              Kartoita yrityksesi hakukonenäkyvyys {" "}
               <a
-                href={`https://ilarischimdt.com/palvelut`}
+                href={`/kartoitus`}
                 className="underline hover:text-success duration-200 transition-colors"
               >
                 tästä

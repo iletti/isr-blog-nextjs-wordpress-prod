@@ -24,8 +24,8 @@ const Services = ({ preview }) => {
               "url(https://mleuki3qgkxz.i.optimole.com/co-ZpyQ-_nizr8Bj/w:auto/h:auto/q:auto/id:f1a3b00c9de99ec58715f4a3d02f64ad/directUpload/vihreakuula_Design_an_image_symbolizing_opportunity_and_growth__69ccb930-f614-4987-8153-1199672e2e5c.png)",
           }}
         >
-          <div className="hero-overlay bg-opacity-60"></div>
-          <div className="hero-content text-center text-neutral-content">
+          <div className=" bg-opacity-60"></div>
+          <div className="hero-content text-center glass">
             <div>
               <h1 className="text-3xl md:text-5xl font-bold">
                 Google Ads palvelut

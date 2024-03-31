@@ -34,9 +34,11 @@ export default function Index({ allPosts: { edges }, preview }) {
                 Autan yrityksiä saamaan näkyvyyttä ja tuloksia Google Ads
                 mainoskampanjoilla.
               </p>
-              <button className="mt-4 btn btn-primary">
-                Tilaa ilmainen kartoitus
-              </button>
+              <a href="/kartoitus">
+                <button className="m-4 btn btn-primary">
+                Kartoita yrityksesi hakukonenäkyvyys
+                </button>
+              </a>
             </div>
 
             {/* Video container */}
@@ -56,7 +58,7 @@ export default function Index({ allPosts: { edges }, preview }) {
         </div>
 
         <div className="mt-6">
-          <h2 className="text-center font-bold text-xl">Palvelut</h2>
+          <h2 className="text-center font-bold text-2xl">Palvelut</h2>
           <a href="/palvelut">
             <div className="flex justify-center">
               <div className="carousel carousel-center max-w-full p-4 space-x-4 m-4 rounded-box">
