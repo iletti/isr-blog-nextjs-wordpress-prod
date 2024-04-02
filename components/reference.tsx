@@ -2,8 +2,8 @@ import React from "react"
 
 const reference = () => {
     return (
-<div className="md:w-1/2 flex-col justify-center m-auto">
-    <h2 className="text-center text-3xl">Referenssit</h2>
+<div className="md:w-4/6 flex-col justify-center m-auto">
+    <h2 className="mt-20 text-center text-3xl">Referenssit</h2>
 
     <div className="chat chat-start">
       <div className="chat-header">
