@@ -2,7 +2,7 @@ import React from "react"
 
 const reference = () => {
     return (
-<div className="md:w-4/6 flex-col justify-center m-auto">
+<div className=" lg:w-5/6  flex-col justify-center m-auto">
     <h2 className="mt-20 text-center text-3xl">Referenssit</h2>
 
     <div className="chat chat-start">
@@ -13,6 +13,17 @@ const reference = () => {
       <div className="chat-bubble bg-green-500 text-white">Suurin osa asiakkaistamme on pieniä yrityksiä, joilla on rajallinen budjetti. Ilarin kautta mainontahommat on aina järjestyneet asiakkaillemme järkevällä hinnalla.</div>
       <div className="chat-footer opacity-50">
        Yrittäjä, Populentia Oy
+      </div>
+    </div>
+
+    <div className="chat chat-start">
+      <div className="chat-header">
+        Tuure Reiman
+        <time className="text-xs opacity-50"></time>
+      </div>
+      <div className="chat-bubble bg-green-500 text-white"> Nopeaa ja toimivaa palvelua.</div>
+      <div className="chat-footer opacity-50">
+       Yrittäjä, Idair Oy
       </div>
     </div>
 

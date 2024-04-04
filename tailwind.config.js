@@ -12,7 +12,7 @@ module.exports = {
         cyan: "#79FFE1",
       },
       spacing: {
-        28: "7rem",
+        128: "32rem",
       },
       letterSpacing: {
         tighter: "-.04em",
@@ -34,7 +34,7 @@ module.exports = {
   },
   plugins: [require("daisyui")],
   daisyui: {
-    themes: ["cmyk", "night"],
-    darkTheme: "night",
+    themes: ["cmyk", "dark"],
+    darkTheme: "dark",
   },
 };

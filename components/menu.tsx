@@ -5,9 +5,12 @@ export default function Menu() {
 
        <Container>
 
-<div id="main-content" className="flex flex-col lg:flex-row justify-center items-center space-y-4 lg:space-y-0 lg:space-x-4 bg-base-200 drop-shadow-md border-b-1 border-gray
+<div id="main-content" className="flex flex-col lg:flex-row justify-center items-center space-y-4 lg:space-y-0 lg:space-x-4 drop-shadow-md border-b-1 border-gray
 
 ">
+
+    
+    <div className="flex justify-center w-full">
     <div>
         <ul className="menu menu-horizontal p-0">
             <li>
@@ -19,10 +22,8 @@ export default function Menu() {
             </li>
         </ul>
     </div>
-    
-    <div className="flex justify-center w-full">
         <ul className="menu menu-horizontal bg-transparent p-0">
-            <li><a href="/palvelut">Palvelut</a></li>
+            <li><a href="/#palvelut">Palvelut</a></li>
             <li><a href="/blogi">Blogi</a></li>
             <li><a href="/tietoa">Tietoa</a></li>
         </ul>

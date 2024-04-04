@@ -13,7 +13,7 @@ const OtaYhteytta = () => {
 
 
   return (
-    <div className="container mx-auto p-4">
+    <div className="container lg:w-5/6  mx-auto p-4">
       <div className="flex flex-col md:flex-row justify-around items-center space-y-4 md:space-y-0">
         <a href="tel:+358456002505">
           <button className="btn btn-secondary flex items-center space-x-2 w-full sm:w-auto">
