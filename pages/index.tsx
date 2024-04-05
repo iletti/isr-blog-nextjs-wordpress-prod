@@ -156,7 +156,7 @@ export default function Index({ allPosts: { edges }, preview }) {
               </div>
             </div>
           </div>
-          <div className="flex items-center justify-center col-span-3 col-start-9 max-sm:order-first">
+          <div className="flex items-center justify-center md:col-span-3 md:col-start-9 max-sm:order-first">
             <h2 className="mb-8 ml-6 text-6xl font-bold leading-tight tracking-tighter text-center drop-shadow md:text-7xl">
               Palvelut.
             </h2>
@@ -168,7 +168,7 @@ export default function Index({ allPosts: { edges }, preview }) {
 
         <div className="grid grid-cols-12 gap-2 mb-20 mt-30">
 
-          <div className="flex items-center justify-center col-span-3"><h2 className="mb-8 ml-6 text-6xl font-bold leading-tight tracking-tighter text-center drop-shadow md:text-7xl">
+          <div className="flex items-center justify-center col-span-3"><h2 className="mb-8 text-6xl font-bold leading-tight tracking-tighter text-center md:ml-6 drop-shadow md:text-7xl">
               Palaute.
             </h2></div>
           <div className="col-span-12 md:col-span-7 md:col-start-6"> <Reference/> </div>
@@ -180,8 +180,8 @@ export default function Index({ allPosts: { edges }, preview }) {
         <div className="grid grid-cols-12 gap-2 my-20">
           <div className="flex justify-center col-span-12 md:col-span-7">
           <div className="pb-10 carousel rounded-box">
-  <div className="w-full py-4 pl-10 carousel-item">
-  <div className="shadow-xl card w-96">
+  <div className="w-full md:py-4 md:pl-10 carousel-item">
+  <div className="w-full shadow-xl card md:w-96">
   <figure><img src="http://172-234-99-242.ip.linodeusercontent.com/wp-content/uploads/2024/03/1.jpg" alt="Shoes" /></figure>
   <div className=" card-body">
     <h2 className="card-title">
@@ -199,7 +199,7 @@ export default function Index({ allPosts: { edges }, preview }) {
 </div>
   </div> 
   <div className="w-full py-4 carousel-item">
-  <div className="shadow-xl card w-96 bg-base-100">
+  <div className="w-full shadow-xl card md:w-96 bg-base-100">
   <figure><img src="http://172-234-99-242.ip.linodeusercontent.com/wp-content/uploads/2024/03/3.jpg" alt="Parturi Mainonta" /></figure>
   <div className="card-body">
     <h2 className="card-title">
@@ -217,7 +217,7 @@ export default function Index({ allPosts: { edges }, preview }) {
 </div>
   </div> 
   <div className="w-full py-4 carousel-item">
-  <div className="shadow-xl card w-96 bg-base-100">
+  <div className="w-full shadow-xl card md:w-96 bg-base-100">
   <figure><img src="http://172-234-99-242.ip.linodeusercontent.com/wp-content/uploads/2024/03/2.jpg" alt="Yritys google ads remarketing" /></figure>
   <div className="card-body">
     <h2 className="card-title">
@@ -235,7 +235,7 @@ export default function Index({ allPosts: { edges }, preview }) {
 </div>
   </div> 
   <div className="w-full py-4 carousel-item">
-  <div className="shadow-xl card w-96 bg-base-100">
+  <div className="w-full shadow-xl card md:w-96 bg-base-100">
   <figure><img src="http://172-234-99-242.ip.linodeusercontent.com/wp-content/uploads/2024/03/4.jpg" alt="LVI-yrityksen google mainonta" /></figure>
   <div className="card-body">
     <h2 className="card-title">
@@ -253,7 +253,7 @@ export default function Index({ allPosts: { edges }, preview }) {
 </div>
   </div> 
   <div className="w-full py-4 carousel-item">
-  <div className="shadow-xl card w-96 bg-base-100">
+  <div className="w-full shadow-xl card md:w-96 bg-base-100">
   <figure><img src="http://172-234-99-242.ip.linodeusercontent.com/wp-content/uploads/2024/03/6.jpg" alt="IV yrityksyn google mainonta" /></figure>
   <div className="card-body">
     <h2 className="card-title">
@@ -271,7 +271,7 @@ export default function Index({ allPosts: { edges }, preview }) {
 </div>
   </div> 
   <div className="w-full py-4 carousel-item">
-  <div className="shadow-xl card w-96 bg-base-100">
+  <div className="w-full shadow-xl card md:w-96 bg-base-100">
   <figure><img src="https://mleuki3qgkxz.i.optimole.com/co-ZpyQ-wvdgl_YE/w:auto/h:auto/q:auto/id:6e8686d9f452ee9a3b343a43cb992be0/directUpload/Untitled-design-1.png
 " alt="Verkkokauppa merchant storeen" /></figure>
   <div className="card-body">
@@ -288,7 +288,7 @@ export default function Index({ allPosts: { edges }, preview }) {
 </div>
   </div> 
   <div className="w-full py-4 carousel-item">
-  <div className="shadow-xl card w-96 bg-base-100">
+  <div className="w-full shadow-xl card md:w-96 bg-base-100">
   <figure><img src="http://172-234-99-242.ip.linodeusercontent.com/wp-content/uploads/2024/03/5.jpg" alt="Google Ads mainonta ajanvarauspalvelulle" /></figure>
   <div className="card-body">
     <h2 className="card-title">
