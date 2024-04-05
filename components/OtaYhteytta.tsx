@@ -2,40 +2,30 @@
 import React from "react";
 
 const OtaYhteytta = () => {
-
-
-
-
-
-
-
-
-
-
   return (
-    <div className="container lg:w-5/6  mx-auto p-4">
-      <div className="flex flex-col md:flex-row justify-around items-center space-y-4 md:space-y-0">
-        <a href="tel:+358456002505">
-          <button className="btn btn-secondary flex items-center space-x-2 w-full sm:w-auto">
+    <div className="w-full p-4 mx-auto ">
+      <div className="flex flex-col gap-4"> {/* Add flex-col and gap classes here */}
+        <a href="tel:+358456002505" className="w-full"> {/* Make anchor full-width */}
+          <button className="w-full btn btn-secondary drop-shadow "> {/* Make button full-width */}
             <span>📞</span>
             <span>Soita</span>
           </button>
         </a>
-        <a href="mailto:ilari@digilari.fi?subject=Yhteydenotto&body=Moi%20Ilari%2C%20ymm%C3%A4rsin%2C%20ett%C3%A4%20voisit%20auttaa%20minua%20saavuttamaan%20online%20n%C3%A4kyvyytt%C3%A4%20yritykselleni.%20%3A%29">
-          <button className="btn btn-secondary flex items-center space-x-2 w-full sm:w-auto">
+        <a href="mailto:ilari@digilari.fi?subject=Yhteydenotto&body=Moi%20Ilari%2C%20ymm%C3%A4rsin%2C%20ett%C3%A4%20voisit%20auttaa%20minua%20saavuttamaan%20online%20n%C3%A4kyvyytt%C3%A4%20yritykselleni.%20%3A%29" className="w-full">
+          <button className="w-full btn btn-secondary drop-shadow ">
             <span>✉️</span>
             <span>Sähköposti</span>
           </button>
         </a>
-        <a href="https://www.linkedin.com/in/ilarischmidt/">
-          <button className="btn btn-secondary flex items-center space-x-2 w-full sm:w-auto">
+        <a href="https://www.linkedin.com/in/ilarischmidt/" className="w-full">
+          <button className="w-full btn btn-secondary drop-shadow ">
             <span></span>
             <span>Linked-In</span>
           </button>
         </a>
 
-        <a href="https://wa.me/358456002505?text=Moi%20Ilari%2C%20ymm%C3%A4rsin%2C%20ett%C3%A4%20voisit%20auttaa%20minua%20saavuttamaan%20online%20n%C3%A4kyvyytt%C3%A4%20yritykselleni.%20%3A%29">
-          <button className="btn btn-secondary flex items-center space-x-2 w-full sm:w-auto">
+        <a href="https://wa.me/358456002505?text=Moi%20Ilari%2C%20ymm%C3%A4rsin%2C%20ett%C3%A4%20voisit%20auttaa%20minua%20saavuttamaan%20online%20n%C3%A4kyvyytt%C3%A4%20yritykselleni.%20%3A%29" className="w-full">
+          <button className="w-full btn btn-secondary drop-shadow ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -54,23 +44,6 @@ const OtaYhteytta = () => {
           </button>
         </a>
       </div>
-
-
-
-
-        {/* <form className="m-4 flex justify-center">
-        <div className=" input-group sm:flex">
-          <input
-            type="text"
-            placeholder="Sähköpostisi tai puhelinnumerosi"
-            className="input input-bordered w-full max-w-xs"
-          />
-          <button type="submit" className="btn btn-square btn-accent w-full sm:w-auto p-3">
-            Lähetä
-          </button>
-        </div>
-
-      </form> */}
     </div>
   );
 };

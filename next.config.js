@@ -21,7 +21,11 @@ const nextConfig = {
       },
       {
         protocol: "https",
-        hostname: "secure.gravatar.com",
+        hostname: "secure.gravatar.com" ,
+      },
+      {
+        protocol: "https",
+        hostname: "mleuki3qgkxz.i.optimole.com",
       },
     ],
     minimumCacheTTL: 15000000,

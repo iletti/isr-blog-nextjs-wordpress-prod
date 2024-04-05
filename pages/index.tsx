@@ -18,17 +18,17 @@ export default function Index({ allPosts: { edges }, preview }) {
       </Head>
       <Container>
 
-<div className="container size-full mx-auto  mt-20 mb-30 ">
+<div className="container mx-auto mt-20 size-full mb-30 ">
   
   
   
   
-  <div className=" mx-auto px-4 flex justify-center mx-auto ">
+  <div className="flex justify-center px-4 mx-auto ">
     <div className="lg:w-5/6 max:smflex-col md:flex">
-      <div className="basis-1/2 m-auto p-10 ">
+      <div className="p-10 m-auto basis-1/2 ">
             <h1 className="text-6xl font-bold">Hakukoneseppä Ilari Schmidt</h1>
             <p>Autan yrityksiä saamaan näkyvyyttä ja tuloksia Google Ads mainoskampanjoilla.</p>
-          <ul className="text-left list-disc pl-5 space-y-2 my-4">
+          <ul className="pl-5 my-4 space-y-2 text-left list-disc">
             <li>Google Ads hakusanamainoskampanjat</li>
             <li>SEO Hakukokoneoptimointi</li>
             <li>Analytiikan asennus</li>
@@ -39,8 +39,8 @@ export default function Index({ allPosts: { edges }, preview }) {
                   Kartoita yrityksesi hakukonenäkyvyys
                   </button>
                 </a></div>
-      <div className=" basis-1/2 m-auto aspect-video  ">      <iframe
-              className="w-full h-full grow size-full rounded card shadow-xl card-compact ring-offset-0 ring-4 ring-blue-400	"
+      <div className="m-auto  basis-1/2 aspect-video">      <iframe
+              className="w-full h-full rounded shadow-xl grow size-full card card-compact ring-offset-0 ring-4 ring-blue-400 "
               src="https://www.youtube.com/embed/YOUR_VIDEO_ID" // Replace with your video ID
               title="YouTube video player"
               frameBorder="0"
@@ -57,13 +57,13 @@ export default function Index({ allPosts: { edges }, preview }) {
 
 
  {/* Services and Pricing Section */}
- <div className="container lg:w-5/6  mx-auto px-4 py-10 mt-20 mb-30 ">
-          <div className=" mx-auto">
-            <div className="text-center mb-10">
-              <h2 className="text-2xl md:text-4xl font-bold" id="palvelut">
+ <div className="container px-4 py-10 mx-auto mt-20 lg:w-5/6 mb-30 ">
+          <div className="mx-auto ">
+            <div className="mb-10 text-center">
+              <h2 className="text-2xl font-bold md:text-4xl" id="palvelut">
                 Palvelut ja Hinnoittelu
               </h2>
-              <p className="mx-auto  mt-4  text-base md:text-xl">
+              <p className="mx-auto mt-4 text-base md:text-xl">
                 Oletko valmis kasvattamaan yrityksesi näkyvyyttä Googlessa ja
                 saamaan enemmän laadukkaita liidejä? Freelancer Ilari Schmidt
                 tarjoaa kattavat Google Ads -palvelut, jotka on suunniteltu
@@ -74,47 +74,47 @@ export default function Index({ allPosts: { edges }, preview }) {
             <div className="mt-6">
         
             <div className="flex justify-around ">
-              <div className="carousel carousel-center max-w-full p-4 space-x-4 m-4 rounded-box ">
-                <div className="carousel-item relative hover:drop-shadow-md">
+              <div className="max-w-full p-4 m-4 space-x-4 carousel carousel-center rounded-box ">
+                <div className="relative carousel-item hover:drop-shadow-md">
                   <img
                     src="https://mleuki3qgkxz.i.optimole.com/co-ZpyQ-JgWZtQES/w:200/h:384/id:1ba0464bb220ecdff95880a61dd9d42a/directUpload/1.png"
-                    className="rounded-box w-full object-cover"
+                    className="object-cover w-full rounded-box"
                   />
                   <div className="absolute inset-0 flex items-center justify-center">
-                    <h3 className="text-white text-xl font-bold px-4 text-center">
+                    <h3 className="px-4 text-xl font-bold text-center text-white">
                       Hakukonemainonta
                     </h3>
                   </div>
                 </div>
-                <div className="carousel-item relative hover:drop-shadow-md">
+                <div className="relative carousel-item hover:drop-shadow-md">
                   <img
                     src="https://mleuki3qgkxz.i.optimole.com/co-ZpyQ-x0C_StAY/w:200/id:c8878edba58e8c3085ad46126bf27eee/directUpload/3.png"
-                    className="rounded-box w-full object-cover"
+                    className="object-cover w-full rounded-box"
                   />
                   <div className="absolute inset-0 flex items-center justify-center">
-                    <h3 className="text-white text-xl font-bold px-4 text-center">
+                    <h3 className="px-4 text-xl font-bold text-center text-white">
                       SEO
                     </h3>
                   </div>
                 </div>
-                <div className="carousel-item relative hover:drop-shadow-md">
+                <div className="relative carousel-item hover:drop-shadow-md">
                   <img
                     src="https://mleuki3qgkxz.i.optimole.com/co-ZpyQ-6Oi6E8xf/w:200/id:b6c3e6d12eb8cc25abc47eb384b02c12/directUpload/2.png"
-                    className="rounded-box w-full object-cover"
+                    className="object-cover w-full rounded-box"
                   />
                   <div className="absolute inset-0 flex items-center justify-center">
-                    <h3 className="text-white text-xl font-bold px-4 text-center">
+                    <h3 className="px-4 text-xl font-bold text-center text-white">
                       Analytiikka
                     </h3>
                   </div>
                 </div>
-                <div className="carousel-item relative hover:drop-shadow-md">
+                <div className="relative carousel-item hover:drop-shadow-md">
                   <img
                     src="https://mleuki3qgkxz.i.optimole.com/co-ZpyQ-cxDiR6_d/w:200/id:65c5bb8759447cc69ce475a282228b9e/directUpload/4.png"
-                    className="rounded-box w-full object-cover"
+                    className="object-cover w-full rounded-box"
                   />
                   <div className="absolute inset-0 flex items-center justify-center">
-                    <h3 className="text-white text-xl font-bold px-4 text-center">
+                    <h3 className="px-4 text-xl font-bold text-center text-white">
                       Optimointi
                     </h3>
                   </div>
@@ -125,9 +125,9 @@ export default function Index({ allPosts: { edges }, preview }) {
         </div>
 
             {/* Video Section
-            <div className="w-full overflow-hidden px-4">
+            <div className="w-full px-4 overflow-hidden">
               <iframe
-                className="aspect-video w-full"
+                className="w-full aspect-video"
                 src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
                 title="YouTube video player"
                 frameBorder="0"
@@ -136,12 +136,12 @@ export default function Index({ allPosts: { edges }, preview }) {
               ></iframe>
             </div> */}
   
-            <div className="container lg:w-5/6 mx-auto py-10 lg:px-16">
+            <div className="container py-10 mx-auto lg:w-5/6 lg:px-16">
               <div className="mx-auto">
                 {/* Accordion Section for Services */}
                 <div className="w-full mb-8">
                   {/* Accordion Item 1 */}
-                  <div className="collapse collapse-arrow border border-base-300 rounded-box">
+                  <div className="border collapse collapse-arrow border-base-300 rounded-box">
                     <input
                       type="radio"
                       name="my-accordion"
@@ -149,7 +149,7 @@ export default function Index({ allPosts: { edges }, preview }) {
                       id="accordion1"
                       defaultChecked
                     />
-                    <div className="collapse-title text-xl font-medium peer-checked:bg-primary peer-checked:text-white">
+                    <div className="text-xl font-medium collapse-title peer-checked:bg-primary peer-checked:text-white">
                       Google Ads hakukonemainonta{" "}
                       <span className="text-secondary">
                         200€ + mainosbudjetti
@@ -168,7 +168,7 @@ export default function Index({ allPosts: { edges }, preview }) {
                     </div>
                   </div>
   
-                  <div className="collapse collapse-arrow border border-base-300  rounded-box">
+                  <div className="border collapse collapse-arrow border-base-300 rounded-box">
                     <input
                       type="radio"
                       name="my-accordion"
@@ -176,7 +176,7 @@ export default function Index({ allPosts: { edges }, preview }) {
                       id="accordion1"
                       defaultChecked
                     />
-                    <div className="collapse-title text-xl font-medium peer-checked:bg-primary peer-checked:text-white">
+                    <div className="text-xl font-medium collapse-title peer-checked:bg-primary peer-checked:text-white">
                       SEO Hakukoneoptimointi{" "}
                       <span className="text-secondary">50€ + auditointi</span>
                     </div>
@@ -193,7 +193,7 @@ export default function Index({ allPosts: { edges }, preview }) {
                     </div>
 
                   {/* Accordion Item 2 */}
-                  <div className="collapse collapse-arrow border border-base-300  rounded-box">
+                  <div className="border collapse collapse-arrow border-base-300 rounded-box">
                     <input
                       type="radio"
                       name="my-accordion"
@@ -201,7 +201,7 @@ export default function Index({ allPosts: { edges }, preview }) {
                       id="accordion1"
                       defaultChecked
                     />
-                    <div className="collapse-title text-xl font-medium peer-checked:bg-primary peer-checked:text-white">
+                    <div className="text-xl font-medium collapse-title peer-checked:bg-primary peer-checked:text-white">
                       Analytiikka{" "}
                       <span className="text-secondary">alkaen 150€</span>
                     </div>
@@ -216,7 +216,7 @@ export default function Index({ allPosts: { edges }, preview }) {
                  
                   </div>
   
-                  <div className="collapse collapse-arrow border border-base-300  rounded-box">
+                  <div className="border collapse collapse-arrow border-base-300 rounded-box">
                     <input
                       type="radio"
                       name="my-accordion"
@@ -224,7 +224,7 @@ export default function Index({ allPosts: { edges }, preview }) {
                       id="accordion1"
                       defaultChecked
                     />
-                    <div className="collapse-title text-xl font-medium peer-checked:bg-primary peer-checked:text-white">
+                    <div className="text-xl font-medium collapse-title peer-checked:bg-primary peer-checked:text-white">
                       Optimointi{" "}
                       <span className="text-secondary">alkaen 50€/kk</span>
                     </div>
@@ -254,14 +254,14 @@ export default function Index({ allPosts: { edges }, preview }) {
        </div>
         </div>
   
-        <div className="container lg:w-5/6  mx-auto px-4  mt-20 mb-30 ">
-          <div className="container lg:w-5/6  mx-auto px-4 py-8 mt-45">
+        <div className="container px-4 mx-auto mt-20 lg:w-5/6 mb-30 ">
+          <div className="container px-4 py-8 mx-auto lg:w-5/6 mt-45">
 
-<h2 className="text-center text-3xl font-bold mb-10">Asiakastarinat</h2>
+<h2 className="mb-10 text-3xl font-bold text-center">Asiakastarinat</h2>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
               {/* First card */}
-              <div className="card w-full glass">
+              <div className="w-full card glass">
                 <figure>
                   <img
                     src="http://172-234-99-242.ip.linodeusercontent.com/wp-content/uploads/2024/03/1.jpg"
@@ -275,34 +275,34 @@ export default function Index({ allPosts: { edges }, preview }) {
                     avainsanoissa. Näin varmistimme, että kohderyhmä löytää
                     Tiemerkinnän ensimmäisenä etsiessään ratkaisua.
                   </p>
-                  <div className="card-actions justify-end">
+                  <div className="justify-end card-actions">
                     <div>
                       {" "}
                       <div className="rating">
                         <input
                           type="radio"
                           name="rating-2"
-                          className="mask mask-star-2 bg-orange-400"
+                          className="bg-orange-400 mask mask-star-2"
                         />
                         <input
                           type="radio"
                           name="rating-2"
-                          className="mask mask-star-2 bg-orange-400"
+                          className="bg-orange-400 mask mask-star-2"
                         />
                         <input
                           type="radio"
                           name="rating-2"
-                          className="mask mask-star-2 bg-orange-400"
+                          className="bg-orange-400 mask mask-star-2"
                         />
                         <input
                           type="radio"
                           name="rating-2"
-                          className="mask mask-star-2 bg-orange-400"
+                          className="bg-orange-400 mask mask-star-2"
                         />
                         <input
                           type="radio"
                           name="rating-2"
-                          className="mask mask-star-2 bg-orange-400"
+                          className="bg-orange-400 mask mask-star-2"
                           checked
                         />
                       </div>
@@ -312,7 +312,7 @@ export default function Index({ allPosts: { edges }, preview }) {
               </div>
   
               {/* Second card */}
-              <div className="card w-full glass">
+              <div className="w-full card glass">
                 <figure>
                   <img
                     src="http://172-234-99-242.ip.linodeusercontent.com/wp-content/uploads/2024/03/3.jpg"
@@ -326,34 +326,34 @@ export default function Index({ allPosts: { edges }, preview }) {
                     Keskityimme edullisiin mainoshuutoihin, joka mahdollisti
                     kattavan näkyvyyden edullisesti.
                   </p>
-                  <div className="card-actions justify-end">
+                  <div className="justify-end card-actions">
                     <div>
                       {" "}
                       <div className="rating">
                         <input
                           type="radio"
                           name="rating-2"
-                          className="mask mask-star-2 bg-orange-400"
+                          className="bg-orange-400 mask mask-star-2"
                         />
                         <input
                           type="radio"
                           name="rating-2"
-                          className="mask mask-star-2 bg-orange-400"
+                          className="bg-orange-400 mask mask-star-2"
                         />
                         <input
                           type="radio"
                           name="rating-2"
-                          className="mask mask-star-2 bg-orange-400"
+                          className="bg-orange-400 mask mask-star-2"
                         />
                         <input
                           type="radio"
                           name="rating-2"
-                          className="mask mask-star-2 bg-orange-400"
+                          className="bg-orange-400 mask mask-star-2"
                         />
                         <input
                           type="radio"
                           name="rating-2"
-                          className="mask mask-star-2 bg-orange-400"
+                          className="bg-orange-400 mask mask-star-2"
                           checked
                         />
                       </div>
@@ -363,7 +363,7 @@ export default function Index({ allPosts: { edges }, preview }) {
               </div>
   
               {/* Third card */}
-              <div className="card w-full glass">
+              <div className="w-full card glass">
                 <figure>
                   <img
                     src="http://172-234-99-242.ip.linodeusercontent.com/wp-content/uploads/2024/03/2.jpg"
@@ -377,34 +377,34 @@ export default function Index({ allPosts: { edges }, preview }) {
                     palvelusta kiinnostuneille yrityksille edistämään
                     osallistujien päätösprosessia.
                   </p>
-                  <div className="card-actions justify-end">
+                  <div className="justify-end card-actions">
                     <div>
                       {" "}
                       <div className="rating">
                         <input
                           type="radio"
                           name="rating-2"
-                          className="mask mask-star-2 bg-orange-400"
+                          className="bg-orange-400 mask mask-star-2"
                         />
                         <input
                           type="radio"
                           name="rating-2"
-                          className="mask mask-star-2 bg-orange-400"
+                          className="bg-orange-400 mask mask-star-2"
                         />
                         <input
                           type="radio"
                           name="rating-2"
-                          className="mask mask-star-2 bg-orange-400"
+                          className="bg-orange-400 mask mask-star-2"
                         />
                         <input
                           type="radio"
                           name="rating-2"
-                          className="mask mask-star-2 bg-orange-400"
+                          className="bg-orange-400 mask mask-star-2"
                         />
                         <input
                           type="radio"
                           name="rating-2"
-                          className="mask mask-star-2 bg-orange-400"
+                          className="bg-orange-400 mask mask-star-2"
                           checked
                         />
                       </div>
@@ -414,7 +414,7 @@ export default function Index({ allPosts: { edges }, preview }) {
               </div>
   
               {/* Fourth card */}
-              <div className="card w-full glass">
+              <div className="w-full card glass">
                 <figure>
                   <img
                     src="http://172-234-99-242.ip.linodeusercontent.com/wp-content/uploads/2024/03/4.jpg"
@@ -428,34 +428,34 @@ export default function Index({ allPosts: { edges }, preview }) {
                     Uudenmaan alueella. Lvi laitteiden huoltoon ja hankintaan
                     liittyvissä hauissa.
                   </p>
-                  <div className="card-actions justify-end">
+                  <div className="justify-end card-actions">
                     <div>
                       {" "}
                       <div className="rating">
                         <input
                           type="radio"
                           name="rating-2"
-                          className="mask mask-star-2 bg-orange-400"
+                          className="bg-orange-400 mask mask-star-2"
                         />
                         <input
                           type="radio"
                           name="rating-2"
-                          className="mask mask-star-2 bg-orange-400"
+                          className="bg-orange-400 mask mask-star-2"
                         />
                         <input
                           type="radio"
                           name="rating-2"
-                          className="mask mask-star-2 bg-orange-400"
+                          className="bg-orange-400 mask mask-star-2"
                         />
                         <input
                           type="radio"
                           name="rating-2"
-                          className="mask mask-star-2 bg-orange-400"
+                          className="bg-orange-400 mask mask-star-2"
                         />
                         <input
                           type="radio"
                           name="rating-2"
-                          className="mask mask-star-2 bg-orange-400"
+                          className="bg-orange-400 mask mask-star-2"
                           checked
                         />
                       </div>
@@ -465,7 +465,7 @@ export default function Index({ allPosts: { edges }, preview }) {
               </div>
   
               {/* Fifth card */}
-              <div className="card w-full glass">
+              <div className="w-full card glass">
                 <figure>
                   <img
                     src="http://172-234-99-242.ip.linodeusercontent.com/wp-content/uploads/2024/03/5.jpg"
@@ -480,34 +480,34 @@ export default function Index({ allPosts: { edges }, preview }) {
                     ympärille. Nyt Google mainonta tuottaa tasaiseen tahtiin
                     varauksia.
                   </p>
-                  <div className="card-actions justify-end">
+                  <div className="justify-end card-actions">
                     <div>
                       {" "}
                       <div className="rating">
                         <input
                           type="radio"
                           name="rating-2"
-                          className="mask mask-star-2 bg-orange-400"
+                          className="bg-orange-400 mask mask-star-2"
                         />
                         <input
                           type="radio"
                           name="rating-2"
-                          className="mask mask-star-2 bg-orange-400"
+                          className="bg-orange-400 mask mask-star-2"
                         />
                         <input
                           type="radio"
                           name="rating-2"
-                          className="mask mask-star-2 bg-orange-400"
+                          className="bg-orange-400 mask mask-star-2"
                         />
                         <input
                           type="radio"
                           name="rating-2"
-                          className="mask mask-star-2 bg-orange-400"
+                          className="bg-orange-400 mask mask-star-2"
                         />
                         <input
                           type="radio"
                           name="rating-2"
-                          className="mask mask-star-2 bg-orange-400"
+                          className="bg-orange-400 mask mask-star-2"
                           checked
                         />
                       </div>
@@ -517,7 +517,7 @@ export default function Index({ allPosts: { edges }, preview }) {
               </div>
   
               {/* Sixth card */}
-              <div className="card w-full glass">
+              <div className="w-full card glass">
                 <figure>
                   <img
                     src="http://172-234-99-242.ip.linodeusercontent.com/wp-content/uploads/2024/03/6.jpg"
@@ -532,34 +532,34 @@ export default function Index({ allPosts: { edges }, preview }) {
                     Laskeutumissivulla oli hintalaskuri ilmanvaihdon
                     puhdistukselle.
                   </p>
-                  <div className="card-actions justify-end">
+                  <div className="justify-end card-actions">
                     <div>
                       {" "}
                       <div className="rating">
                         <input
                           type="radio"
                           name="rating-2"
-                          className="mask mask-star-2 bg-orange-400"
+                          className="bg-orange-400 mask mask-star-2"
                         />
                         <input
                           type="radio"
                           name="rating-2"
-                          className="mask mask-star-2 bg-orange-400"
+                          className="bg-orange-400 mask mask-star-2"
                         />
                         <input
                           type="radio"
                           name="rating-2"
-                          className="mask mask-star-2 bg-orange-400"
+                          className="bg-orange-400 mask mask-star-2"
                         />
                         <input
                           type="radio"
                           name="rating-2"
-                          className="mask mask-star-2 bg-orange-400"
+                          className="bg-orange-400 mask mask-star-2"
                         />
                         <input
                           type="radio"
                           name="rating-2"
-                          className="mask mask-star-2 bg-orange-400"
+                          className="bg-orange-400 mask mask-star-2"
                           checked
                         />
                       </div>
@@ -573,12 +573,12 @@ export default function Index({ allPosts: { edges }, preview }) {
 
 
 {/* Call to Action Section */}
-<div className="container mx-auto  mt-20 mb-30 ">
+<div className="container mx-auto mt-20 mb-30 ">
   <div className="text-center">
-    <h3 className="text-3xl font-bold mb-4">
+    <h3 className="mb-4 text-3xl font-bold">
       Oletko valmis kasvattamaan yritystäsi?
     </h3>
-    <p className="text-xl mb-6">
+    <p className="mb-6 text-xl">
       Otahan yhteyttä, niin jutellaan liiketoimintatarpeistasi ja
       katsotaan voinko auttaa yrityksesi näkyvyyden kanssa.
     </p>
