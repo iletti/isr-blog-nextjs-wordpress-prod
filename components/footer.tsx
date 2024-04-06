@@ -26,17 +26,17 @@ export default function Footer() {
   }, []);
 
   return (
-    <footer className="bg-accent-1 border-t border-accent-2">
+    <footer className="border-t bg-accent-1 border-accent-2">
       <Container>
-        <div className="container mx-auto mb-30 mt-20 lg:w-5/6 py-28 flex flex-col lg:flex-row items-center">
-          <h3 className="text-4xl lg:text-5xl font-bold tracking-tighter leading-tight text-center lg:text-left mb-10 lg:mb-0 lg:pr-4 lg:w-1/2">
+        <div className="container flex flex-col items-center mx-auto mt-20 mb-30 lg:w-5/6 py-28 lg:flex-row">
+          <h3 className="mb-10 text-4xl font-bold leading-tight tracking-tighter text-center lg:text-5xl lg:text-left lg:mb-0 lg:pr-4 lg:w-1/2">
             Kaipaatko jeesiä näkyvyydessä? Autan mielelläni.
           </h3>
-          <div className="flex flex-col lg:flex-row justify-center items-center lg:pl-4 lg:w-1/2">
+          <div className="flex flex-col items-center justify-center lg:flex-row lg:pl-4 lg:w-1/2">
             <a
               ref={contactLinkRef}
               href="#"
-              className="mx-3 bg-black hover:bg-white hover:text-black border border-black text-white font-bold py-3 px-12 lg:px-8 duration-200 transition-colors mb-6 lg:mb-0"
+              className="px-12 py-3 mx-3 mb-6 font-bold text-white transition-colors duration-200 bg-black border border-black hover:bg-white hover:text-black lg:px-8 lg:mb-0"
             >
               Ota yhteyttä
             </a>
@@ -54,15 +54,15 @@ export default function Footer() {
 
 
 
-        <div className="footer footer-center p-10  text-base-content rounded">
+        <div className="p-10 rounded footer footer-center text-base-content">
           <nav className="grid grid-flow-col gap-4">
             <a href="/" className="link link-hover">
               Etusivu
             </a>
-            <a href="/palvelut" className="link link-hover">
+            <a href="/#palvelut" className="link link-hover">
               Palvelut
             </a>
-            <a href="/#blogi" className="link link-hover">
+            <a href="/blogi" className="link link-hover">
               Blogi
             </a>
             <a href="/tietoa" className="link link-hover">

@@ -157,7 +157,7 @@ export default function Index({ allPosts: { edges }, preview }) {
             </div>
           </div>
           <div className="flex items-center justify-center col-span-12 md:col-span-3 md:col-start-9 max-sm:order-first">
-            <h2 className="mb-8 ml-6 text-6xl font-bold leading-tight tracking-tighter text-center drop-shadow md:text-7xl">
+            <h2 id="palvelut" className="mb-8 ml-6 text-6xl font-bold leading-tight tracking-tighter text-center drop-shadow md:text-7xl">
               Palvelut.
             </h2>
           </div>
@@ -310,7 +310,7 @@ export default function Index({ allPosts: { edges }, preview }) {
 </div>
           </div>
           <div className="flex items-center justify-center col-span-12 md:col-span-3 md:col-start-9 max-sm:order-first">
-            <h2 className="mb-8 ml-6 text-6xl font-bold leading-tight tracking-tighter text-center drop-shadow md:text-7xl">
+            <h2 className="mb-8 text-6xl font-bold leading-tight tracking-tighter text-center drop-shadow md:text-7xl">
               Töitä.
             </h2>
           </div>
@@ -319,7 +319,7 @@ export default function Index({ allPosts: { edges }, preview }) {
 
         <div className="grid grid-cols-12 gap-2 mt-20 mb-20">
 
-<div className="flex items-center justify-center col-span-12 mdcol-span-3 "><h2 className="mb-8 ml-6 text-6xl font-bold leading-tight tracking-tighter text-center drop-shadow md:text-7xl">
+<div className="flex items-center justify-center col-span-12 md:col-span-3 "><h2 className="mb-8 ml-6 text-6xl font-bold leading-tight tracking-tighter text-center drop-shadow md:text-7xl">
     Yhteys.
   </h2></div>
 <div className="flex justify-center col-span-12 md:col-span-6 md:col-start-6 "> <OtaYhteytta/> </div>
