@@ -32,10 +32,10 @@ export default function Index({ allPosts: { edges }, preview }) {
                 </p>
                 <div className="flex justify-center lg:justify-start">
                   <ul className="pl-5 my-4 space-y-2 text-left list-disc">
-                    <li>Google Ads hakusanamainoskampanjat</li>
+                    <li>Google Ads kampanjat</li>
                     <li>SEO Hakukokoneoptimointi</li>
                     <li>Analytiikan asennus</li>
-                    <li>Google Ads optimointi</li>
+                    <li>Google Ads kampanjaoptimointi</li>
                   </ul>
                 </div>
                 <a href="/kartoitus">
@@ -83,8 +83,10 @@ export default function Index({ allPosts: { edges }, preview }) {
                     Näin saadaan ohjattua potentiaalisia asiakkaita palvelujesi
                     äärelle. Kampanjan hinta on kertamaksu. Voit itse määrittää
                     kuukausitasolla käytettävän mainosbudjetin. Mainonnan
-                    optimoinnista, joka on ainakin pari ekaa kuukautta järkevää
+                    optimoinnista, jota on ainakin muutama ensimmäinen kuukausi järkevää
                     toteuttaa, sovitaan erikseen.
+                    <br /> <br />
+                    Voin toteuttaa myös muita kampanjatyyppejä, kuten Display, Maksimitulokset, Shopping, Video ja Kysynnän kasvatus mainontaa. Em. Kampanjoissa tarvitaan kuitenkin myös mediasisältöjä, joten näiden toteutuksien laajuudesta ja hinnoittelusta sovitaan aina erikseen.
                   </p>
                 </div>
               </div>
@@ -98,18 +100,12 @@ export default function Index({ allPosts: { edges }, preview }) {
                   defaultChecked
                 />
                 <div className="text-xl font-medium collapse-title peer-checked:bg-primary peer-checked:text-white">
-                  SEO Hakukoneoptimointi{" "}
-                  <span className="font-bold">50€ + auditointi</span>
+                  SEO Hakukoneoptimointi auditointi{" "}
+                  <span className="font-bold">50€</span>
                 </div>
                 <div className="collapse-content peer-checked:bg-primary peer-checked:text-white peer-checked:bg-opacity-90">
                   <p>
-                    Määritetään tärkeimmät hakusanat, joissa yrityksesi tulee
-                    näkyä ja rakennetaan niiden ympärille relevantit mainokset.
-                    Näin saadaan ohjattua potentiaalisia asiakkaita palvelujesi
-                    äärelle. Kampanjan hinta on kertamaksu. Voit itse määrittää
-                    kuukausitasolla käytettävän mainosbudjetin. Mainonnan
-                    optimoinnista, joka on ainakin pari ekaa kuukautta järkevää
-                    toteuttaa, sovitaan erikseen.
+                    Hakukoneoptimointi aloitetaan aina sivuston auditoinnilla, josta ilmenee sivuston tekninen suorituskyky SEO:n näkökulmasta. Lisäksi kartoitamme tämän hetkisen hakusananäkyvyyden ja vertaamme niitä määritettyihin tavoitteisiin. Lopputuloksena saat kehityslistan toimenpiteistä, joita toteuttamalla SEO näkyvyys paranee. Jatkotoimenpiteet sovitaan erikseen.
                   </p>
                 </div>
 
@@ -128,8 +124,7 @@ export default function Index({ allPosts: { edges }, preview }) {
                   </div>
                   <div className="collapse-content peer-checked:bg-primary peer-checked:text-white peer-checked:bg-opacity-90">
                     <p>
-                      Määritetään verkkosivun konversiot ja asennetaan seuranta
-                      integraatiot edistyksellisen seurannan mahdollistamiseksi.{" "}
+                      Määritetään verkkosivun konversiot ja asennetaan seuranta-integraatiot edistyksellisen seurannan mahdollistamiseksi.{" "}
                     </p>
                   </div>
                 </div>
@@ -324,10 +319,10 @@ export default function Index({ allPosts: { edges }, preview }) {
 
         <div className="grid grid-cols-12 gap-2 mt-20 mb-20">
 
-<div className="flex items-center justify-center col-span-12 md:col-span-3 "><h2 className="mb-8 ml-6 text-6xl font-bold leading-tight tracking-tighter text-center drop-shadow md:text-7xl">
+<div className="flex items-center justify-center col-span-12 md:col-span-3 "><h2 className="mb-8 text-6xl font-bold leading-tight tracking-tighter text-center drop-shadow md:text-7xl">
     Yhteys.
   </h2></div>
-<div className="flex justify-center col-span-12 md:col-span-6 md:col-start-6 "> <OtaYhteytta/> </div>
+<div className="flex col-span-12 md:col-span-6 md:col-start-6 "> <OtaYhteytta/> </div>
 
 </div>
 
