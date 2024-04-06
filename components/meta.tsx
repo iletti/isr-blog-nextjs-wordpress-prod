@@ -1,14 +1,14 @@
 import Head from "next/head";
 
 const Meta = ({
-  title = "Default Title",
-  description = "A statically generated blog example using Next.js.",
+  title = "Google Ads Hakukoneseppä Ilari Schmidt",
+  description = "Autan yrityksiä saavuttamaan täyden potentiaalinsa Google hakutuloksissa",
   imageUrl = "/default-og-image.png",
   contentType = "website",
-  url = "",
-  canonicalUrl = "",
+  url = "https://ilarischmidt.com",
+  canonicalUrl = "https://ilarischmidt.com",
 }) => {
-  const siteName = "Your Site Name";
+  const siteName = "Hakukoneseppä Ilari Schmidt";
   const fullImageUrl = `${process.env.NEXT_PUBLIC_SITE_URL}${imageUrl}`;
 
   return (
