@@ -10,6 +10,7 @@ module.exports = {
   
         success: "#0070f3",
         cyan: "#79FFE1",
+        // secondary: " #C0C0C0" ,
       },
       spacing: {
         128: "32rem",
@@ -34,7 +35,7 @@ module.exports = {
   },
   plugins: [require("daisyui")],
   daisyui: {
-    themes: ["cmyk", "dark"],
-    darkTheme: "dark",
+    themes: ["cmyk", "black"],
+    darkTheme: "black",
   },
 };

@@ -21,42 +21,44 @@ export default function Index({ allPosts: { edges }, preview }) {
         <div className="grid grid-cols-12 mt-20"> <h1 className="col-span-10 col-start-2 mb-8 text-6xl font-bold leading-tight tracking-tighter text-center md:text-7xl max-sm:text-2xl">
                 Google Ads Hakukoneseppä Ilari Schmidt
               </h1></div>
-        <div>
-          <div className="grid grid-cols-12 gap-2 pb-32">
-            <div className="col-span-12 text-center lg:text-left lg:col-start-1 lg:col-span-6 ">
-             
-              <p className="font-bold">
-                Autan yrityksiä saamaan näkyvyyttä ja tuloksia Google Ads
-                mainoskampanjoilla.
-              </p>
-              <div className="flex justify-center lg:justify-start">
-                <ul className="pl-5 my-4 space-y-2 text-left list-disc">
-                  <li>Google Ads hakusanamainoskampanjat</li>
-                  <li>SEO Hakukokoneoptimointi</li>
-                  <li>Analytiikan asennus</li>
-                  <li>Google Ads optimointi</li>
-                </ul>
+        <div className="dark:glass">
+          <div>
+            <div className="grid grid-cols-12 gap-2 px-10 py-32">
+              <div className="col-span-12 text-center lg:text-left lg:col-start-1 lg:col-span-6 ">
+            
+                <p className="font-bold">
+                  Autan yrityksiä saamaan näkyvyyttä ja tuloksia Google Ads
+                  mainoskampanjoilla.
+                </p>
+                <div className="flex justify-center lg:justify-start">
+                  <ul className="pl-5 my-4 space-y-2 text-left list-disc">
+                    <li>Google Ads hakusanamainoskampanjat</li>
+                    <li>SEO Hakukokoneoptimointi</li>
+                    <li>Analytiikan asennus</li>
+                    <li>Google Ads optimointi</li>
+                  </ul>
+                </div>
+                <a href="/kartoitus">
+                  <button className="m-4 btn btn-primary">
+                    Kartoita yrityksesi hakukonenäkyvyys
+                  </button>
+                </a>
               </div>
-              <a href="/kartoitus">
-                <button className="m-4 btn btn-primary">
-                  Kartoita yrityksesi hakukonenäkyvyys
-                </button>
-              </a>
-            </div>
-            <div className="flex items-center justify-center col-span-12 lg:col-start-7 lg:col-span-6">
-              <div className="w-full px-4 overflow-hidden ">
-                <iframe
-                  className="w-full rounded-lg aspect-video drop-shadow-lg "
-                  src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
-                  title="YouTube video player"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                ></iframe>
+              <div className="flex items-center justify-center col-span-12 lg:col-start-7 lg:col-span-6">
+                <div className="w-full px-4 overflow-hidden ">
+                  <iframe
+                    className="w-full rounded-lg aspect-video drop-shadow-lg "
+                    src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+                    title="YouTube video player"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>
+                </div>
               </div>
             </div>
+                    </div>
           </div>
-        </div>
 
         <div className="grid grid-cols-12 gap-2 my-20">
           <div className="col-span-12 md:col-span-7">
@@ -72,7 +74,7 @@ export default function Index({ allPosts: { edges }, preview }) {
                 />
                 <div className="text-xl font-medium collapse-title peer-checked:bg-primary peer-checked:text-white">
                   Google Ads hakukonemainonta{" "}
-                  <span className="text-secondary">200€ + mainosbudjetti</span>
+                  <span className="font-bold">200€ + mainosbudjetti</span>
                 </div>
                 <div className="collapse-content peer-checked:bg-primary peer-checked:text-white peer-checked:bg-opacity-90">
                   <p>
@@ -97,7 +99,7 @@ export default function Index({ allPosts: { edges }, preview }) {
                 />
                 <div className="text-xl font-medium collapse-title peer-checked:bg-primary peer-checked:text-white">
                   SEO Hakukoneoptimointi{" "}
-                  <span className="text-secondary">50€ + auditointi</span>
+                  <span className="font-bold">50€ + auditointi</span>
                 </div>
                 <div className="collapse-content peer-checked:bg-primary peer-checked:text-white peer-checked:bg-opacity-90">
                   <p>
@@ -122,7 +124,7 @@ export default function Index({ allPosts: { edges }, preview }) {
                   />
                   <div className="text-xl font-medium collapse-title peer-checked:bg-primary peer-checked:text-white">
                     Analytiikka{" "}
-                    <span className="text-secondary">alkaen 150€</span>
+                    <span className="font-bold">alkaen 150€</span>
                   </div>
                   <div className="collapse-content peer-checked:bg-primary peer-checked:text-white peer-checked:bg-opacity-90">
                     <p>
@@ -143,7 +145,7 @@ export default function Index({ allPosts: { edges }, preview }) {
                 />
                 <div className="text-xl font-medium collapse-title peer-checked:bg-primary peer-checked:text-white">
                   Optimointi{" "}
-                  <span className="text-secondary">alkaen 50€/kk</span>
+                  <span className="font-bold">alkaen 50€/kk</span>
                 </div>
                 <div className="collapse-content peer-checked:bg-primary peer-checked:text-white peer-checked:bg-opacity-90">
                   <p>
@@ -309,10 +311,13 @@ export default function Index({ allPosts: { edges }, preview }) {
   </div>
 </div>
           </div>
-          <div className="flex items-center justify-center col-span-12 md:col-span-3 md:col-start-9 max-sm:order-first">
+          <div className="flex flex-col items-center justify-center col-span-12 md:col-span-3 md:col-start-9 max-sm:order-first">
             <h2 className="mb-8 text-6xl font-bold leading-tight tracking-tighter text-center drop-shadow md:text-7xl">
               Töitä.
             </h2>
+            <div className="md:invisible">
+              <p>Scrollaa -&gt;</p>
+            </div>
           </div>
         </div>
 
