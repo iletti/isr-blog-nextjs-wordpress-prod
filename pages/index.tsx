@@ -174,10 +174,10 @@ export default function Index({ allPosts: { edges }, preview }) {
 
 
 
-        <div className="grid grid-cols-12 gap-2 my-20">
-          <div className="flex justify-center col-span-12 md:col-span-7">
-          <div className="pb-10 carousel rounded-box">
-  <div className="w-full md:py-4 md:pl-10 carousel-item">
+        <div className="grid h-full grid-cols-12 gap-2 my-20">
+          <div className="flex justify-center h-full col-span-12 md:col-span-6">
+          <div className="pb-10 carousel carousel-vertical rounded-box h-[32rem]">
+  <div className="w-full md:py-4 carousel-item">
   <div className="w-full shadow-xl card md:w-96">
   <figure><img src="http://172-234-99-242.ip.linodeusercontent.com/wp-content/uploads/2024/03/1.jpg" alt="Shoes" /></figure>
   <div className=" card-body">
@@ -188,6 +188,7 @@ export default function Index({ allPosts: { edges }, preview }) {
     <p> Nostimme tiemerkinnän hakusanat kärkeen heille kriittisimmissä
                     avainsanoissa. Näin varmistimme, että kohderyhmä löytää
                     Tiemerkinnän ensimmäisenä etsiessään ratkaisua.</p>
+                    <p className="text-secondary">Skrollaa seuraava -&gt;</p>
     <div className="justify-end card-actions">
       <div className="badge badge-outline">Google Ads</div> 
       <div className="badge badge-outline">Analytiikka</div>
@@ -310,9 +311,7 @@ export default function Index({ allPosts: { edges }, preview }) {
             <h2 className="mb-8 text-6xl font-bold leading-tight tracking-tighter text-center drop-shadow md:text-7xl">
               Töitä.
             </h2>
-            <div className="md:invisible">
-              <p>Scrollaa -&gt;</p>
-            </div>
+            
           </div>
         </div>
 
