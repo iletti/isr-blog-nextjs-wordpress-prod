@@ -5,11 +5,16 @@ const Meta = ({
   description = "Autan yrityksiä saavuttamaan täyden potentiaalinsa Google hakutuloksissa",
   imageUrl = "/default-og-image.png",
   contentType = "website",
-  url = "https://ilarischmidt.com",
-  canonicalUrl = "https://ilarischmidt.com",
+  url = "",
+  canonicalUrl = "",
 }) => {
   const siteName = "Hakukoneseppä Ilari Schmidt";
+  // Ensure the fullImageUrl is an absolute URL
   const fullImageUrl = `${process.env.NEXT_PUBLIC_SITE_URL}${imageUrl}`;
+  
+  // Adjusting url and canonicalUrl to ensure they are absolute URLs
+  const fullUrl = `${process.env.NEXT_PUBLIC_SITE_URL}${url}`;
+  const fullCanonicalUrl = canonicalUrl ? `${process.env.NEXT_PUBLIC_SITE_URL}${canonicalUrl}` : fullUrl;
 
   return (
     <Head>
@@ -19,9 +24,9 @@ const Meta = ({
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
       <meta property="og:image" content={fullImageUrl} />
-      <meta property="og:url" content={`${process.env.NEXT_PUBLIC_SITE_URL}${url}`} />
+      <meta property="og:url" content={fullUrl} />
       <meta property="og:site_name" content={siteName} />
-      <link rel="canonical" href={`${process.env.NEXT_PUBLIC_SITE_URL}${canonicalUrl || url}`} />
+      <link rel="canonical" href={fullCanonicalUrl} />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
@@ -40,7 +45,7 @@ const Meta = ({
         {JSON.stringify({
           "@context": "http://schema.org",
           "@type": "WebSite",
-          url: `${process.env.NEXT_PUBLIC_SITE_URL}${url}`,
+          url: fullUrl,
           name: title,
           description: description,
         })}
