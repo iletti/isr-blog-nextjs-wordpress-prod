@@ -13,9 +13,9 @@ export default function Index({ allPosts: { edges }, preview }) {
   const morePosts = edges.slice(1);
 
 
-  const pageTitle = "Google Ads Hakukoneseppä Ilari Schmidt";
+  const pageTitle = "Google Ads Blogi";
   const pageDescription =
-    "Autan yrityksiä saamaan näkyvyyttä ja tuloksia Google Ads mainoskampanjoilla.";
+    "Tervetuloa oppimaan ja inspiroitumaan siitä miten saat näkyvyyttä ja tuloksia Google Ads mainoskampanjoillasi.";
 
 
 
