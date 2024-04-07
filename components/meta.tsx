@@ -1,19 +1,23 @@
 import Head from "next/head";
+import { useRouter } from 'next/router';
 
 const Meta = ({
   title = "Google Ads Hakukoneseppä Ilari Schmidt",
   description = "Autan yrityksiä saavuttamaan täyden potentiaalinsa Google hakutuloksissa",
   imageUrl = "/default-og-image.png",
   contentType = "website",
-  url = "",
   canonicalUrl = "",
 }) => {
   const siteName = "Hakukoneseppä Ilari Schmidt";
+  const router = useRouter();
+
+  // Get the current URL dynamically
+  const fullUrl = `${process.env.NEXT_PUBLIC_SITE_URL}${router.asPath}`;
+
   // Ensure the fullImageUrl is an absolute URL
   const fullImageUrl = `${process.env.NEXT_PUBLIC_SITE_URL}${imageUrl}`;
   
-  // Adjusting url and canonicalUrl to ensure they are absolute URLs
-  const fullUrl = `${process.env.NEXT_PUBLIC_SITE_URL}${url}`;
+  // Adjusting canonicalUrl to ensure it is an absolute URL
   const fullCanonicalUrl = canonicalUrl ? `${process.env.NEXT_PUBLIC_SITE_URL}${canonicalUrl}` : fullUrl;
 
   return (
