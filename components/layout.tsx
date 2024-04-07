@@ -3,10 +3,10 @@ import Footer from "./footer";
 import Meta from "./meta";
 import Menu from "./menu";
 
-export default function Layout({ preview, children }) {
+export default function Layout({  preview, pageTitle, pageDescription, children }) {
   return (
     <>
-      <Meta />
+      <Meta  title={pageTitle} description={pageDescription}  />
       <div className="min-h-screen">
         <Alert preview={preview} />
         <Menu />

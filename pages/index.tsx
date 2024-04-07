@@ -12,10 +12,16 @@ export default function Index({ allPosts: { edges }, preview }) {
   const heroPost = edges[0]?.node;
   const morePosts = edges.slice(0);
 
+   const pageTitle = "Google Ads Hakukoneseppä Ilari Schmidt";
+   const pageDescription =
+     "Autan yrityksiä saamaan näkyvyyttä ja tuloksia Google Ads mainoskampanjoilla.";
+
   return (
-    <Layout preview={preview}>
+    <Layout preview={preview}  pageTitle={pageTitle} pageDescription={pageDescription}>
       <Head>
-        <title>{`Ilari Schmidt Blogi`}</title>
+
+    
+
       </Head>
       <Container>
         <div className="grid grid-cols-12 mt-20"> <h1 className="col-span-10 col-start-2 mb-8 text-6xl font-bold leading-tight tracking-tighter text-center md:text-7xl max-sm:text-2xl">
