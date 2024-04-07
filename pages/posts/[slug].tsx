@@ -18,12 +18,16 @@ export default function Post({ post, posts, preview }) {
   const router = useRouter();
   const morePosts = posts?.edges;
 
+  const pageTitle = `${post.title} |Ilari Schmidt Blogi`;
+  const pageDescription =
+    "";
+
   if (!router.isFallback && !post?.slug) {
     return <ErrorPage statusCode={404} />;
   }
 
   return (
-    <Layout preview={preview}>
+    <Layout preview={preview}   pageTitle={pageTitle} pageDescription={pageDescription}>
       <Container>
         <Header />
         {router.isFallback ? (
@@ -33,7 +37,7 @@ export default function Post({ post, posts, preview }) {
             <article>
               <Head>
                 <title>
-                  {`${post.title} |Ilari Schmidt Blogi`}
+                 
                 </title>
                 <meta
                   property="og:image"
