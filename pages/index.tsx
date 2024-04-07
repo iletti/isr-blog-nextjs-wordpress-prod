@@ -179,7 +179,7 @@ export default function Index({ allPosts: { edges }, preview }) {
           <div className="pb-10 carousel carousel-vertical rounded-box h-[32rem]">
   <div className="w-full md:py-4 carousel-item">
   <div className="w-full shadow-xl card md:w-96">
-  <figure><img src="http://172-234-99-242.ip.linodeusercontent.com/wp-content/uploads/2024/03/1.jpg" alt="Shoes" /></figure>
+  <figure><img src="https://mleuki3qgkxz.i.optimole.com/co-ZpyQ--Izsw3uZ/w:auto/h:auto/q:auto/id:d8b51307aa693232ac1acf978f6beeb4/directUpload/1.jpg" alt="Shoes" /></figure>
   <div className=" card-body">
     <h2 className="card-title">
       Tiemerkintä Oy
@@ -198,7 +198,7 @@ export default function Index({ allPosts: { edges }, preview }) {
   </div> 
   <div className="w-full py-4 carousel-item">
   <div className="w-full shadow-xl card md:w-96 bg-base-100">
-  <figure><img src="http://172-234-99-242.ip.linodeusercontent.com/wp-content/uploads/2024/03/3.jpg" alt="Parturi Mainonta" /></figure>
+  <figure><img src="https://mleuki3qgkxz.i.optimole.com/co-ZpyQ-SUfxJvtO/w:auto/h:auto/q:auto/id:d056659772151e7cb48f9c1ac2ee48c9/directUpload/3.jpg" alt="Parturi Mainonta" /></figure>
   <div className="card-body">
     <h2 className="card-title">
       Viella parturi
@@ -216,7 +216,7 @@ export default function Index({ allPosts: { edges }, preview }) {
   </div> 
   <div className="w-full py-4 carousel-item">
   <div className="w-full shadow-xl card md:w-96 bg-base-100">
-  <figure><img src="http://172-234-99-242.ip.linodeusercontent.com/wp-content/uploads/2024/03/2.jpg" alt="Yritys google ads remarketing" /></figure>
+  <figure><img src="https://mleuki3qgkxz.i.optimole.com/3Jpmpuk-51owUpz3/w:auto/h:auto/q:auto/id:07fa94cc620acbaa87fa602ec9923700/https://172-234-99-242.ip.linodeusercontent.com/2.jpg" alt="Yritys google ads remarketing" /></figure>
   <div className="card-body">
     <h2 className="card-title">
       Kasvu Open Oy
@@ -234,7 +234,7 @@ export default function Index({ allPosts: { edges }, preview }) {
   </div> 
   <div className="w-full py-4 carousel-item">
   <div className="w-full shadow-xl card md:w-96 bg-base-100">
-  <figure><img src="http://172-234-99-242.ip.linodeusercontent.com/wp-content/uploads/2024/03/4.jpg" alt="LVI-yrityksen google mainonta" /></figure>
+  <figure><img src="https://mleuki3qgkxz.i.optimole.com/3Jpmpuk-gg8u77vA/w:auto/h:auto/q:auto/id:b5fd13403c2396f5efc123609223804a/https://172-234-99-242.ip.linodeusercontent.com/4.jpg" alt="LVI-yrityksen google mainonta" /></figure>
   <div className="card-body">
     <h2 className="card-title">
       ViluWorks Oy
@@ -252,7 +252,7 @@ export default function Index({ allPosts: { edges }, preview }) {
   </div> 
   <div className="w-full py-4 carousel-item">
   <div className="w-full shadow-xl card md:w-96 bg-base-100">
-  <figure><img src="http://172-234-99-242.ip.linodeusercontent.com/wp-content/uploads/2024/03/6.jpg" alt="IV yrityksyn google mainonta" /></figure>
+  <figure><img src="https://mleuki3qgkxz.i.optimole.com/3Jpmpuk-R9lrMLbw/w:auto/h:auto/q:auto/id:abdf680654fb1811d168bc24bdef45ad/https://172-234-99-242.ip.linodeusercontent.com/6.jpg" alt="IV yrityksyn google mainonta" /></figure>
   <div className="card-body">
     <h2 className="card-title">
     Idair Oy      <div className="badge badge-secondary">Hakukampanja</div>
@@ -287,7 +287,7 @@ export default function Index({ allPosts: { edges }, preview }) {
   </div> 
   <div className="w-full py-4 carousel-item">
   <div className="w-full shadow-xl card md:w-96 bg-base-100">
-  <figure><img src="http://172-234-99-242.ip.linodeusercontent.com/wp-content/uploads/2024/03/5.jpg" alt="Google Ads mainonta ajanvarauspalvelulle" /></figure>
+  <figure><img src="https://mleuki3qgkxz.i.optimole.com/3Jpmpuk-IliYXSEP/w:auto/h:auto/q:auto/id:74ec47bcda9dff1c47fcd8373d68fc31/https://172-234-99-242.ip.linodeusercontent.com/5.jpg" alt="Google Ads mainonta ajanvarauspalvelulle" /></figure>
   <div className="card-body">
     <h2 className="card-title">
     Helposti pariterapiaan
