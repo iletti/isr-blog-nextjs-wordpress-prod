@@ -5,14 +5,17 @@ import OtaYhteytta from "../components/OtaYhteytta";
 import Container from "../components/container";
 
 const Services = ({ preview }) => {
+
+
+  const pageTitle = "Google Ads Palvelut";
+  const pageDescription =
+    "Palveluihini sisältyy: Hakusanamainonta, Display ja Youtube kampanjat, sekä SEO hakukoneoptimointi.";
+
+
   return (
-    <Layout preview={preview}>
+    <Layout preview={preview}  pageTitle={pageTitle} pageDescription={pageDescription}>
       <Head>
-        <title>Google Ads Palvelut - Freelancer</title>
-        <meta
-          name="description"
-          content="Professional Google Ads management and optimization services by a certified freelancer. Increase your ROI with targeted ad campaigns."
-        />
+
       </Head>
 <Container>
   

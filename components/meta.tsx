@@ -2,8 +2,8 @@ import Head from "next/head";
 import { useRouter } from 'next/router';
 
 const Meta = ({
-  title = "Google Ads Hakukoneseppä Ilari Schmidt",
-  description = "Autan yrityksiä saavuttamaan täyden potentiaalinsa Google hakutuloksissa",
+  title,
+  description,
   imageUrl = "/default-og-image.png",
   contentType = "website",
   canonicalUrl = "",

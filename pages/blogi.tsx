@@ -12,10 +12,17 @@ export default function Index({ allPosts: { edges }, preview }) {
   const heroPost = edges[0]?.node;
   const morePosts = edges.slice(1);
 
+
+  const pageTitle = "Google Ads Hakukoneseppä Ilari Schmidt";
+  const pageDescription =
+    "Autan yrityksiä saamaan näkyvyyttä ja tuloksia Google Ads mainoskampanjoilla.";
+
+
+
   return (
-    <Layout preview={preview}>
+    <Layout preview={preview }  pageTitle={pageTitle} pageDescription={pageDescription}>
       <Head>
-        <title>{`Ilari Schmidt Blogi`}</title>
+       
       </Head>
       <Container>
 
