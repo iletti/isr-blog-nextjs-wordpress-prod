@@ -5,16 +5,17 @@ import Container from "../components/container";
 import Reference from "../components/reference";
 
 const About = ({ preview }) => {
+
+
+  const pageTitle = " Tietoa minusta - Ilari Schmidt";
+  const pageDescription =
+    "Ilari Schmidt esittely ja taustatietoa.";
+
+
   return (
-    <Layout preview={preview}>
+    <Layout preview={preview}  pageTitle={pageTitle} pageDescription={pageDescription}>
       <Head>
-        <title>
-          Tietoa minusta - Google Ads spesialisti kaikkiin tarpeisiisi
-        </title>
-        <meta
-          name="description"
-          content="Tutustu osaamiseni ja siihen, kuinka voin auttaa yritystäsi näkymään paremmin ostaville asiakkaillesi"
-        />
+
       </Head>
 
       <Container>
