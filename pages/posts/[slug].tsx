@@ -18,27 +18,26 @@ export default function Post({ post, posts, preview }) {
   const router = useRouter();
   const morePosts = posts?.edges;
 
-  const pageTitle = `${post.title}`;
-  const pageDescription =
-    "";
+  // Check if post is defined before accessing its properties
+  const pageTitle = post ? `${post.title}` : 'Loading...';
+  const pageDescription = ""; // You might want to add a description here
 
+  // Render error page if post is not found
   if (!router.isFallback && !post?.slug) {
     return <ErrorPage statusCode={404} />;
   }
 
   return (
-    <Layout preview={preview}   pageTitle={pageTitle} pageDescription={pageDescription}>
+    <Layout preview={preview} pageTitle={pageTitle} pageDescription={pageDescription}>
       <Container>
         <Header />
         {router.isFallback ? (
-          <PostTitle>Ladataan…</PostTitle>
+          <PostTitle>Loading...</PostTitle> // Display loading state
         ) : (
           <>
             <article>
               <Head>
-                <title>
-                 
-                </title>
+                <title>{pageTitle}</title> {/* Set the page title */}
                 <meta
                   property="og:image"
                   content={post.featuredImage?.node.sourceUrl}
