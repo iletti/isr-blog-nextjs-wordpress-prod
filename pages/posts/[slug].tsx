@@ -18,7 +18,7 @@ export default function Post({ post, posts, preview }) {
   const router = useRouter();
   const morePosts = posts?.edges;
 
-  const pageTitle = `${post.title} |Ilari Schmidt Blogi`;
+  const pageTitle = `${post.title}`;
   const pageDescription =
     "";
 
