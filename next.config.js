@@ -24,6 +24,10 @@ const nextConfig = {
         hostname: "secure.gravatar.com" ,
       },
       {
+        protocol: "http",
+        hostname: "172-234-99-242.ip.linodeusercontent.com",
+      },
+      {
         protocol: "https",
         hostname: "mleuki3qgkxz.i.optimole.com",
       },
