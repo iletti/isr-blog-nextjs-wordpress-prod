@@ -29,7 +29,7 @@ export default function Index({ allPosts: { edges }, preview }) {
               </h1></div>
         <div className="dark:glass">
           <div>
-            <div className="grid grid-cols-12 gap-2 px-10 py-32">
+            <div className="grid grid-cols-12 gap-2 py-14">
               <div className="col-span-12 text-center lg:text-left lg:col-start-1 lg:col-span-6 ">
             
                 <p className="font-bold">
@@ -54,7 +54,7 @@ export default function Index({ allPosts: { edges }, preview }) {
                 <div className="w-full px-4 overflow-hidden ">
                   <iframe
                     className="w-full rounded-lg aspect-video drop-shadow-lg "
-                    src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+                    src="https://www.youtube.com/embed/bA8GCTzl1AY"
                     title="YouTube video player"
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
