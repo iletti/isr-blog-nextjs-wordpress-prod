@@ -31,7 +31,7 @@
 }
 
 .alignfull {
-  @apply w-screen relative;
+  @apply relative w-screen;
 
   left: 50%;
   margin-left: -50vw;
@@ -77,7 +77,7 @@
 
 .wp-block-button a,
 .wp-block-file a.wp-block-file__button {
-  @apply bg-blue-500 text-white no-underline py-2 px-4;
+  @apply px-4 py-2 text-white no-underline bg-blue-500;
 }
 
 .wp-block-button a:hover,
@@ -90,7 +90,7 @@
 }
 
 .wp-block-cover {
-  @apply flex flex-wrap justify-center items-center bg-cover bg-center overflow-hidden;
+  @apply flex flex-wrap items-center justify-center overflow-hidden bg-center bg-cover;
 
   min-height: 430px;
 }
@@ -102,3 +102,4 @@
 .wp-block-media-text {
   @apply grid grid-cols-2 gap-4;
 }
+

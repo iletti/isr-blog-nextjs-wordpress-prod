@@ -19,36 +19,43 @@ const About = ({ preview }) => {
       </Head>
 
       <Container>
-        <div className="mx-auto my-32 text-center ">
+      <div className="mt-4 mb-4 dark:glass">
+        <div className="mx-auto text-center ">
+     
           <div >
-            <h1 className="mb-5 text-5xl font-bold">Tietoa minusta</h1>
+            <h1 className="mb-5 text-4xl font-bold">Tietoa minusta</h1>
           </div>
         </div>
 
-        <div className="mx-auto my-32">
-          <h2 className="mb-6 text-4xl font-bold text-center">
-             Google Ads Hakukoneseppä ⚒️ Ilari Schmidt
-          </h2>
+     
+        <div className="mx-auto">
+
           <div className="flex flex-wrap items-center justify-center">
             <img
               src="https://mleuki3qgkxz.i.optimole.com/co-ZpyQ-fmwW6snM/w:auto/h:auto/q:auto/id:22e0e7b17a8f9d88025be28769af03a6/directUpload/Brown-and-Light-Brown-Circle-Framed-Instagram-Profile-Picture.png"
               alt="Professional portrait"
               className="w-48 h-48 mb-6 rounded-full shadow-xl lg:mb-0 lg:mr-8"
             />
-            <p className="max-w-2xl text-xl">
-              Yli kymmenen vuoden kokemuksella digitaalisessa markkinoinnissa
-              osaamiseni keskittyy luomaan ja hallinnoimaan tuloksellisia
-              Google Ads -kampanjoita. Google Ads osaajana tavoitteenani on auttaa yrityksiä saavuttamaan täyden potentiaalinsa
-              verkossa. Google kampanjoiden tukena toteutan hakukonoptimointia, analytiikan rakentamista ja ylläpitopalveluita.
-              <br />
-              <br />
-              Olipa tarpeesi bränditietoisuuden lisääminen tai
-              myynnin kasvattaminen, lähestymistapani on räätälöidä
-              toteutus vastaamaan yrityksesi yksilöllisiä tavoitteita.
-            </p>
+
+            <div>
+              <h2 className="mb-1 text-2xl ">
+               Google Ads Hakukoneseppä ⚒️ Ilari Schmidt
+                        </h2>
+              <p className="max-w-2xl text-xl">
+                Yli kymmenen vuoden kokemuksella digitaalisessa markkinoinnissa
+                osaamiseni keskittyy luomaan ja hallinnoimaan tuloksellisia
+                Google Ads -kampanjoita. Google Ads osaajana tavoitteenani on auttaa yrityksiä saavuttamaan täyden potentiaalinsa
+                verkossa. Google kampanjoiden tukena toteutan hakukonoptimointia, analytiikan rakentamista ja ylläpitopalveluita.
+                <br />
+                <br />
+                Olipa tarpeesi bränditietoisuuden lisääminen tai
+                myynnin kasvattaminen, lähestymistapani on räätälöidä
+                toteutus vastaamaan yrityksesi yksilöllisiä tavoitteita.
+              </p>
+            </div>
           </div>
         </div>
-
+        </div>
 
 <div className="mx-auto my-32 ">
  <h2 className="mb-6 text-4xl font-bold text-center">Osaaminen ja suosituksia</h2>
