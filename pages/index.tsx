@@ -24,11 +24,11 @@ export default function Index({ allPosts: { edges }, preview }) {
 
       </Head>
       <Container>
-        <div className="grid grid-cols-12 mt-20"> <h1 className="col-span-10 col-start-2 mb-8 text-6xl font-bold leading-tight tracking-tighter text-center md:text-7xl max-sm:text-2xl">
-                Google Ads Hakukoneseppä Ilari Schmidt
-              </h1></div>
         <div className="dark:glass">
           <div>
+        <div className="grid grid-cols-12 mt-20"> <h1 className="col-span-10 col-start-2 mb-8 text-4xl font-bold leading-tight tracking-tighter text-center md:text-7xl max-sm:text-2xl">
+                Google Ads Hakukoneseppä Ilari Schmidt
+              </h1></div>
             <div className="grid grid-cols-12 gap-2 py-14">
               <div className="col-span-12 text-center lg:text-left lg:col-start-1 lg:col-span-6 ">
             
