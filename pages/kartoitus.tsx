@@ -40,29 +40,14 @@ const AuditLandingPage = () => {
               </ul>
             </div>
             <div className="w-full max-w-sm shadow-2xl card shrink-0 ">
-              <form className="card-body bg-base-200">
-                <div className="form-control">
-                  <label className="label">
-                    <span className="label-text">Sähköposti</span>
-                  </label>
-                  <input type="email" placeholder="esimerkki@domain.fi" className="input input-bordered" required />
-                </div>
-                <div className="form-control">
-                  <label className="label">
-                    <span className="label-text">Puhelinnumero</span>
-                  </label>
-                  <input type="tel" placeholder="0456002505" className="input input-bordered" required />
-                </div>
-                <div className="form-control">
-                  <label className="label">
-                    <span className="label-text">Nettisivujen osoite tai yrityksesi nimi</span>
-                  </label>
-                  <input type="text" placeholder="yritys.com" className="input input-bordered" required />
-                </div>
-                <div className="mt-6 form-control">
-                  <button className="btn btn-accent">Tilaa kartoitus</button>
-                </div>
-              </form>
+             <script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/embed/v2.js"></script>
+<script>
+  hbspt.forms.create({
+    region: "eu1",
+    portalId: "144589700",
+    formId: "c36159e3-3f24-4cb2-8c04-6f0fa70a1082"
+  });
+</script>
             </div>
           </div>
         </div>
