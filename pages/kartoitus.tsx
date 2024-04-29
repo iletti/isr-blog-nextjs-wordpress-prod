@@ -40,7 +40,7 @@ const AuditLandingPage = () => {
               </ul>
             </div>
             <div className="w-full max-w-sm shadow-2xl card shrink-0 ">
-             <script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/embed/v2.js"></script>
+             <script charSet="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/embed/v2.js"></script>
 <script>
   hbspt.forms.create({
     region: "eu1",
