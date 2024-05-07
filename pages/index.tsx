@@ -23,7 +23,7 @@ export default function Index({ allPosts: { edges }, preview }) {
 
       </Head>
   
-      <div className="min-h-screen hero bg-base-200 dark:glass">
+      <div className="min-h-screen bg-opacity-25 hero bg-gradient-to-br from-gray-200 via-gray-300 to-gray-400">
   <div className="flex-col hero-content lg:flex-row">
   <div className="w-full px-4 overflow-hidden ">
                   <iframe

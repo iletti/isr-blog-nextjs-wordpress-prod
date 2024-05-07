@@ -25,33 +25,29 @@ const AuditLandingPage = () => {
         <meta name="description" content="Tilaa ilmainen näkyvyyden kartoitus ja saa ideoita yrityksesisi näkyvyyden parantamiseksi" />
       </Head>
 
-      <Container>
-        <div className="min-h-screen hero"
-        
-        style={{
-          backgroundImage: `url('https://mleuki3qgkxz.i.optimole.com/co-ZpyQ-KWpi1i3o/w:auto/h:auto/q:auto/id:93e11c017b6bb1589a36877c92a60c9c/directUpload/vihreakuula_Design_a_detailed_professional_image_showing_a_vari_59bdd763-13d7-4b6e-b383-b17191587c7e.png')`,
-        }}
-        
-        >
-          <div className="flex-col hero-content lg:flex-row glass">
-            <div className="max-w-screen-sm text-center lg:text-left">
-              <h1 className="text-5xl font-bold text-left dark:text-black">Tilaa ilmainen verkkonäkyvyyden kartoitus yrityksellesi</h1>
-              <p className="text-left dark:text-black">
-                Selvitä yrityksesi verkkonäkyvyyden tila hakukoneiden hakutuloksissa. Tilaa maksuton verkkonäkyvyyden kartoitus ja saa tietooosi miten voit kehittää yrityksesi näkyvyyttä verkossa.
-              </p>
-              <h3 className='text-left dark:text-black'>Saat:</h3>
-              <ul className="text-left dark:text-black">
-                <li>✔Teknisen raportin verkkosivustosi tilasta</li>
-                <li>✔Raportin hakukonenäkyvyyden tämän hetkisestä tilasta </li>
-                <li>✔Checklistan toimenpiteistä näkyvyyden parantamiseksi</li>
-              </ul>
+      <div className="min-h-screen dark:bg-black hero bg-gradient-to-br from-teal-500 via-cyan-500 to-blue-500 ">
+        <Container>
+          <div >
+            <div className="flex-col hero-content lg:flex-row glass">
+              <div className="max-w-screen-sm text-center lg:text-left">
+                <h1 className="text-5xl font-bold text-left dark:text-black">Tilaa ilmainen verkkonäkyvyyden kartoitus yrityksellesi</h1>
+                <p className="text-left dark:text-black">
+                  Selvitä yrityksesi verkkonäkyvyyden tila hakukoneiden hakutuloksissa. Tilaa maksuton verkkonäkyvyyden kartoitus ja saa tietooosi miten voit kehittää yrityksesi näkyvyyttä verkossa.
+                </p>
+                <h3 className='text-left dark:text-black'>Saat:</h3>
+                <ul className="text-left dark:text-black">
+                  <li>✔Teknisen raportin verkkosivustosi tilasta</li>
+                  <li>✔Raportin hakukonenäkyvyyden tämän hetkisestä tilasta </li>
+                  <li>✔Checklistan toimenpiteistä näkyvyyden parantamiseksi</li>
+                </ul>
+              </div>
+              <div className='mt-8'> <ContactForm/></div>
             </div>
-            <div className='mt-8'> <ContactForm/></div>
+        
           </div>
-          
-        </div>
-       
-      </Container>
+        
+        </Container>
+      </div>
     </Layout>
   );
 };
