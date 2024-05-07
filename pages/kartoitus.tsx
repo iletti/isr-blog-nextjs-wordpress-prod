@@ -4,6 +4,7 @@ import Layout from '../components/layout';
 import Container from '../components/container';
 import HubspotForm from '../components/HubspotForm'
 import React, { useEffect } from 'react'; 
+import ContactForm from '../components/ContactForm';
 
 const AuditLandingPage = () => {
   const formId = 'c36159e3-3f24-4cb2-8c04-6f0fa70a1082';
@@ -45,7 +46,7 @@ const AuditLandingPage = () => {
                 <li>✔Checklistan toimenpiteistä näkyvyyden parantamiseksi</li>
               </ul>
             </div>
-            <div className='mt-8'> <HubspotForm formId={formId} /></div>
+            <div className='mt-8'> <ContactForm/></div>
           </div>
           
         </div>
