@@ -55,6 +55,8 @@ const Meta = ({
         })}
       </script>
       {/* Other Dynamic Meta Tags as Needed */}
+      <script charSet="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/embed/v2.js"></script>
+
     </Head>
   );
 };

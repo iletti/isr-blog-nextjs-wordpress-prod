@@ -23,35 +23,9 @@ export default function Index({ allPosts: { edges }, preview }) {
 
       </Head>
   
-      <Container>
-        <div className="dark:glass">
-          <div>
-        <div className="grid grid-cols-12 mt-20"> <h1 className="col-span-10 col-start-2 pt-6 text-4xl font-bold leading-tight tracking-tighter text-center md:text-4xl max-sm:text-2xl">
-                Google Ads Hakukoneseppä Ilari Schmidt
-              </h1></div>
-            <div className="grid grid-cols-12 gap-2 py-14">
-              <div className="col-span-12 text-center lg:text-left lg:col-start-1 lg:col-span-6 ">
-            
-                <p className="pl-2 font-bold">
-                  Autan yrityksiä saamaan näkyvyyttä ja tuloksia Google Ads
-                  mainoskampanjoilla.
-                </p>
-                <div className="flex justify-center lg:justify-start">
-                  <ul className="pl-5 my-4 space-y-2 text-left list-disc">
-                    <li>Google Ads kampanjat</li>
-                    <li>SEO Hakukokoneoptimointi</li>
-                    <li>Analytiikan asennus</li>
-                    <li>Google Ads kampanjaoptimointi</li>
-                  </ul>
-                </div>
-                <a href="/kartoitus">
-                  <button className="m-4 btn btn-primary">
-                    Kartoita yrityksesi hakukonenäkyvyys
-                  </button>
-                </a>
-              </div>
-              <div className="flex items-center justify-center col-span-12 lg:col-start-7 lg:col-span-6">
-                <div className="w-full px-4 overflow-hidden ">
+      <div className="min-h-screen hero bg-base-200 dark:glass">
+  <div className="flex-col hero-content lg:flex-row">
+  <div className="w-full px-4 overflow-hidden ">
                   <iframe
                     className="w-full rounded-lg aspect-video drop-shadow-lg "
                     src="https://www.youtube.com/embed/bA8GCTzl1AY"
@@ -61,10 +35,25 @@ export default function Index({ allPosts: { edges }, preview }) {
                     allowFullScreen
                   ></iframe>
                 </div>
-              </div>
-            </div>
-                    </div>
-          </div>
+    <div>
+      <h1 className="text-5xl font-bold">Google Ads Hakukoneseppä Ilari Schmidt</h1>
+      <p className="py-2"> Autan yrityksiä saamaan näkyvyyttä ja tuloksia Google Ads
+                  mainoskampanjoilla.</p>
+                  <ul className="text-left list-disc ">
+                    <li>Google Ads kampanjat</li>
+                    <li>SEO Hakukokoneoptimointi</li>
+                    <li>Analytiikan asennus</li>
+                    <li>Google Ads kampanjaoptimointi</li>
+                  </ul>
+    </div>
+  </div>
+</div>
+
+
+      <Container>
+
+
+        
 
         <div className="grid grid-cols-12 gap-2 my-20">
           <div className="col-span-12 md:col-span-7">

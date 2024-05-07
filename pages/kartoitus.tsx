@@ -2,14 +2,20 @@
 import Head from 'next/head';
 import Layout from '../components/layout';
 import Container from '../components/container';
+import HubspotForm from '../components/HubspotForm'
+import React, { useEffect } from 'react'; 
 
 const AuditLandingPage = () => {
-    const previewValue = false;
+  const formId = 'c36159e3-3f24-4cb2-8c04-6f0fa70a1082';
+  
+  
+  const previewValue = false;
 
     const pageTitle = "Kartoita Google näkyvyytesi tila";
     const pageDescription =
       "Pyydä sivustosi tämän hetkisen näkyvyyden maksuton kartoitus ja saa edellytykset näkyvyyden parantamiseksi.";
  
+
 
   return (
     <Layout preview={previewValue}   pageTitle={pageTitle} pageDescription={pageDescription}>
@@ -29,7 +35,7 @@ const AuditLandingPage = () => {
           <div className="flex-col hero-content lg:flex-row glass">
             <div className="max-w-screen-sm text-center lg:text-left">
               <h1 className="text-5xl font-bold text-left dark:text-black">Tilaa ilmainen verkkonäkyvyyden kartoitus yrityksellesi</h1>
-              <p className="py-6 text-left dark:text-black">
+              <p className="text-left dark:text-black">
                 Selvitä yrityksesi verkkonäkyvyyden tila hakukoneiden hakutuloksissa. Tilaa maksuton verkkonäkyvyyden kartoitus ja saa tietooosi miten voit kehittää yrityksesi näkyvyyttä verkossa.
               </p>
               <h3 className='text-left dark:text-black'>Saat:</h3>
@@ -39,33 +45,11 @@ const AuditLandingPage = () => {
                 <li>✔Checklistan toimenpiteistä näkyvyyden parantamiseksi</li>
               </ul>
             </div>
-            <div className="w-full max-w-sm shadow-2xl card shrink-0 ">
-              <form className="card-body bg-base-200">
-                <div className="form-control">
-                  <label className="label">
-                    <span className="label-text">Sähköposti</span>
-                  </label>
-                  <input type="email" placeholder="esimerkki@domain.fi" className="input input-bordered" required />
-                </div>
-                <div className="form-control">
-                  <label className="label">
-                    <span className="label-text">Puhelinnumero</span>
-                  </label>
-                  <input type="tel" placeholder="0456002505" className="input input-bordered" required />
-                </div>
-                <div className="form-control">
-                  <label className="label">
-                    <span className="label-text">Nettisivujen osoite tai yrityksesi nimi</span>
-                  </label>
-                  <input type="text" placeholder="yritys.com" className="input input-bordered" required />
-                </div>
-                <div className="mt-6 form-control">
-                  <button className="btn btn-accent">Tilaa kartoitus</button>
-                </div>
-              </form>
-            </div>
+            <div className='mt-8'> <HubspotForm formId={formId} /></div>
           </div>
+          
         </div>
+       
       </Container>
     </Layout>
   );
