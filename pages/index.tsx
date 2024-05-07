@@ -36,10 +36,10 @@ export default function Index({ allPosts: { edges }, preview }) {
                   ></iframe>
                 </div>
     <div>
-      <h1 className="text-5xl font-bold">Google Ads Hakukoneseppä Ilari Schmidt</h1>
-      <p className="py-2"> Autan yrityksiä saamaan näkyvyyttä ja tuloksia Google Ads
+      <h1 className="text-5xl font-bold dark:text-black">Google Ads Hakukoneseppä Ilari Schmidt</h1>
+      <p className="py-2 dark:text-black"> Autan yrityksiä saamaan näkyvyyttä ja tuloksia Google Ads
                   mainoskampanjoilla.</p>
-                  <ul className="text-left list-disc ">
+                  <ul className="text-left list-disc dark:text-black ">
                     <li>Google Ads kampanjat</li>
                     <li>SEO Hakukokoneoptimointi</li>
                     <li>Analytiikan asennus</li>
