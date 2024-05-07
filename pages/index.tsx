@@ -45,6 +45,9 @@ export default function Index({ allPosts: { edges }, preview }) {
                     <li>Analytiikan asennus</li>
                     <li>Google Ads kampanjaoptimointi</li>
                   </ul>
+                  <a href="https://ilarischmidt.com/kartoitus" className="mt-2 btn btn-primary">Kartoita hakunäkyvyytesi</a>
+
+
     </div>
   </div>
 </div>
