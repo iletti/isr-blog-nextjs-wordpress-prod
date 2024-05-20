@@ -1,0 +1,79 @@
+/Users/kermaperunat/headlesswp/isr-blog-nextjs-wordpress-prod
+├── README.md
+├── components
+│   ├── ContactForm.tsx
+│   ├── HubspotForm.js
+│   ├── OtaYhteytta.tsx
+│   ├── alert.tsx
+│   ├── avatar.tsx
+│   ├── categories.tsx
+│   ├── container.tsx
+│   ├── cover-image.tsx
+│   ├── date.tsx
+│   ├── footer.tsx
+│   ├── header.tsx
+│   ├── hero-post.tsx
+│   ├── intro.tsx
+│   ├── layout.tsx
+│   ├── menu.tsx
+│   ├── meta.tsx
+│   ├── more-stories.tsx
+│   ├── post-body.module.css
+│   ├── post-body.tsx
+│   ├── post-header.tsx
+│   ├── post-preview.tsx
+│   ├── post-title.tsx
+│   ├── reference.tsx
+│   ├── section-separator.tsx
+│   └── tags.tsx
+├── docs
+│   ├── new-post.png
+│   ├── plugin-installed.png
+│   ├── plugins-add-new.png
+│   ├── plugins-upload-new.png
+│   └── wp-graphiql.png
+├── file_contents.txt
+├── isr_blog_structure.txt
+├── lib
+│   ├── api.ts
+│   └── constants.ts
+├── next-env.d.ts
+├── next-sitemap.config.js
+├── next.config.js
+├── package-lock.json
+├── package.json
+├── pages
+│   ├── _app.tsx
+│   ├── _document.tsx
+│   ├── api
+│   │   ├── exit-preview.ts
+│   │   └── preview.ts
+│   ├── blogi.tsx
+│   ├── index.tsx
+│   ├── kartoitus.tsx
+│   ├── palvelut.tsx
+│   ├── posts
+│   │   └── [slug].tsx
+│   └── tietoa.tsx
+├── postcss.config.js
+├── public
+│   ├── favicon
+│   │   ├── android-chrome-192x192.png
+│   │   ├── android-chrome-512x512.png
+│   │   ├── apple-touch-icon.png
+│   │   ├── browserconfig.xml
+│   │   ├── favicon-16x16.png
+│   │   ├── favicon-32x32.png
+│   │   ├── favicon.ico
+│   │   ├── mstile-150x150.png
+│   │   ├── safari-pinned-tab.svg
+│   │   └── site.webmanifest
+│   ├── robots.txt
+│   ├── sitemap-0.xml
+│   └── sitemap.xml
+├── styles
+│   └── index.css
+├── tailwind.config.js
+└── tsconfig.json
+
+10 directories, 67 files

@@ -72,7 +72,7 @@ export default function Index({ allPosts: { edges }, preview }) {
                 />
                 <div className="text-xl font-medium collapse-title peer-checked:bg-primary peer-checked:text-white">
                   Google Ads hakukonemainonta{" "}
-                  <span className="font-bold">200€ + mainosbudjetti</span>
+                  <span className="font-bold"></span>
                 </div>
                 <div className="collapse-content peer-checked:bg-primary peer-checked:text-white peer-checked:bg-opacity-90">
                   <p>
@@ -99,7 +99,7 @@ export default function Index({ allPosts: { edges }, preview }) {
                 />
                 <div className="text-xl font-medium collapse-title peer-checked:bg-primary peer-checked:text-white">
                   SEO Hakukoneoptimointi auditointi{" "}
-                  <span className="font-bold">50€</span>
+                  <span className="font-bold"></span>
                 </div>
                 <div className="collapse-content peer-checked:bg-primary peer-checked:text-white peer-checked:bg-opacity-90">
                   <p>
@@ -118,7 +118,7 @@ export default function Index({ allPosts: { edges }, preview }) {
                   />
                   <div className="text-xl font-medium collapse-title peer-checked:bg-primary peer-checked:text-white">
                     Analytiikka{" "}
-                    <span className="font-bold">alkaen 150€</span>
+                    <span className="font-bold"></span>
                   </div>
                   <div className="collapse-content peer-checked:bg-primary peer-checked:text-white peer-checked:bg-opacity-90">
                     <p>
@@ -138,7 +138,7 @@ export default function Index({ allPosts: { edges }, preview }) {
                 />
                 <div className="text-xl font-medium collapse-title peer-checked:bg-primary peer-checked:text-white">
                   Optimointi{" "}
-                  <span className="font-bold">alkaen 50€/kk</span>
+                  <span className="font-bold"></span>
                 </div>
                 <div className="collapse-content peer-checked:bg-primary peer-checked:text-white peer-checked:bg-opacity-90">
                   <p>

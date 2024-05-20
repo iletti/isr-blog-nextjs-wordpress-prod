@@ -22,6 +22,7 @@ const Meta = ({
 
   return (
     <Head>
+
       <title>{title}</title>
       <meta name="description" content={description} />
       <meta property="og:type" content={contentType} />
@@ -55,7 +56,6 @@ const Meta = ({
         })}
       </script>
       {/* Other Dynamic Meta Tags as Needed */}
-      <script charSet="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/embed/v2.js"></script>
 
     </Head>
   );
