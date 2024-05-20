@@ -126,7 +126,7 @@ const HakukoneoptimointiPalvelu = ({ preview }) => {
       <ul className="pl-4 mb-8 text-gray-600 list-disc list-inside">
         <li>
           <strong>Kokemus:</strong>
-          Minulla on vankka yli 5 vuoden kokemus SEO-alalta ja olen auttanut useita suomalaisia yrityksiä saavuttamaan näkyvyyttä hakukoneissa ja kasvattamaan liiketoimintaansa
+          Minulla on vankka yli 5 vuoden kokemus SEO-alalta ja olen auttanut useita suomalaisia yrityksiä saavuttamaan näkyvyyttä hakukoneissa ja kasvattamaan liiketoimintaansa.
         </li>
         <li>
           <strong>Asiantuntemus:</strong>
