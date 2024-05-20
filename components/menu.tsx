@@ -18,9 +18,9 @@ export default function Menu() {
                         </ul>
                     </div>
                     <ul className="p-0 bg-transparent menu menu-horizontal">
-                    <li><a href="/#palvelut">Palvelut</a></li>
-<li><a href="/blogi">Blogi</a></li>
-<li><a href="/tietoa">Tietoa</a></li>
+                    <li><a href="https://www.ilarischmidt.com/palvelut/hakukoneoptimointi">Hakukoneoptmointi</a></li>
+<li><a href="https://www.ilarischmidt.com/blogi">Blogi</a></li>
+<li><a href="https://www.ilarischmidt.com/tietoa">Tietoa</a></li>
 
                     </ul>
                 </div>
