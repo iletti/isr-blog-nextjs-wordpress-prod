@@ -122,7 +122,7 @@ const HakukoneoptimointiPalvelu = ({ preview }) => {
 
     {/* Why Choose Us Section */}
     <div className="mt-12 lg:mt-20">
-      <h2 className="mb-8 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Miksi valita meidät?</h2>
+      <h2 className="mb-8 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Miksi valita minut?</h2>
       <ul className="pl-4 mb-8 text-gray-600 list-disc list-inside">
         <li>
           <strong>Kokemus:</strong>
