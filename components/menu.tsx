@@ -1,30 +1,24 @@
 import Container from "./container";
+import Link from "next/link";
 
 export default function Menu() {
     return (
         <Container>
-            <div id="main-content" className="flex flex-col items-center justify-center space-y-4 lg:flex-row lg:space-y-0 lg:space-x-4 drop-shadow-md border-b-1 border-gray">
-                <div className="flex justify-center w-full">
-                    <div>
-                        <ul className="p-0 menu menu-horizontal">
-                            <li>
-                                {/* Ensure links have meaningful text or aria-label for better SEO and accessibility */}
-                                <a href="/" aria-label="Home">
-                                    <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
-                                    </svg>
-                                </a>
-                            </li>
+            <ul className="justify-center w-full menu lg:menu-horizontal rounded-box">
+                <li><Link href="https://www.ilarischmidt.com/">Etusivu</Link></li>
+                <li>
+                    <details>
+                        <summary>Palvelut</summary>
+                        <ul>
+                            <li><Link href="https://www.ilarischmidt.com/palvelut/hakukoneoptimointi">Hakukoneoptimointi (SEO)</Link></li>
+                            <li><Link href="https://www.ilarischmidt.com/palvelut/google-mainonta">Google mainonta</Link></li>
+                            <li><Link href="https://www.ilarischmidt.com/palvelut/web-kehitys">Web kehitys</Link></li>
                         </ul>
-                    </div>
-                    <ul className="p-0 bg-transparent menu menu-horizontal">
-                    <li><a href="https://www.ilarischmidt.com/palvelut/hakukoneoptimointi">Hakukoneoptimointi</a></li>
-<li><a href="https://www.ilarischmidt.com/blogi">Blogi</a></li>
-<li><a href="https://www.ilarischmidt.com/tietoa">Tietoa</a></li>
-
-                    </ul>
-                </div>
-            </div>
+                    </details>
+                </li>
+                <li><Link href="/tietoa">Tietoa</Link></li>
+                <li><Link href="/yhteystiedot">Yhteystiedot</Link></li>
+            </ul>
         </Container>
-    )
+    );
 };
