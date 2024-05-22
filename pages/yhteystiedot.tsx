@@ -2,6 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Layout from "../components/layout";
 import Container from "../components/container";
+import HubSpotFormEmbed from "../components/HubSpotFormEmbed";
 
 const Yhteystiedot = ({ preview }) => {
   const pageTitle = "Ota Yhteyttä | Ilari Schmidt";
@@ -74,7 +75,9 @@ const Yhteystiedot = ({ preview }) => {
                 </div>
               </div>
             </div>
-
+               
+                <div className="container h-6 h-screen bg-slate-500">
+                     <HubSpotFormEmbed/></div>
             {/* Optional: Add a contact form or additional message here */}
           </div>
         </section>

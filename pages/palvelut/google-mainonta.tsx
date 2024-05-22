@@ -302,7 +302,7 @@ const GoogleMainontaPalvelu = ({ preview }) => {
 
 
 
-<section id="references" className="py-20 bg-gray-50">
+<section id="references" className="py-20">
   <div className="container px-4 mx-auto max-w-7xl">
     <h2 className="mb-10 text-4xl font-extrabold tracking-tight text-center text-gray-900 sm:text-5xl md:text-6xl">
       Menestystarinoita Google Mainonnan avulla
