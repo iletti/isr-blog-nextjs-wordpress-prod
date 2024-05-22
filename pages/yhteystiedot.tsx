@@ -76,7 +76,7 @@ const Yhteystiedot = ({ preview }) => {
               </div>
             </div>
                
-                <div className="container h-6 h-screen bg-slate-500">
+                <div className="container h-6 bg-slate-500">
                      <HubSpotFormEmbed/></div>
             {/* Optional: Add a contact form or additional message here */}
           </div>
