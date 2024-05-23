@@ -16,8 +16,9 @@ export default function Menu() {
                         </ul>
                     </details>
                 </li>
-                <li><Link href="/tietoa">Tietoa</Link></li>
-                <li><Link href="/yhteystiedot">Yhteystiedot</Link></li>
+                <li><Link href="https://www.ilarischmidt.com/tietoa">Tietoa</Link></li>
+                <li><Link href="https://www.ilarischmidt.com/blogi">Blogi</Link></li>
+                <li><Link href="https://www.ilarischmidt.com/yhteystiedot">Yhteystiedot</Link></li>
             </ul>
         </Container>
     );
