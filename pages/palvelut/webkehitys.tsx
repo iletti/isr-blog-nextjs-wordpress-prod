@@ -22,10 +22,10 @@ const webkehitys = ({ preview }) => {
             <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
               <div className="mb-12 text-center lg:mb-20">
                 <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
-                  Web-kehityspalvelut yrityksellesi
+                  Tekninen digimarkkinointi
                 </h1>
                 <p className="max-w-md mx-auto mt-3 mb-5 text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-                  Tarvitsetko modernit, käyttäjäystävälliset ja hakukoneystävälliset verkkosivut? Autan sinua luomaan verkkosivuston, joka erottuu joukosta ja tuottaa tuloksia.
+                  Tarvitsetko digitaalisen strategian lisäksi sulavat teknologiat toteuttamaan suunnitelmasi? Autan sinua luomaan teknologiastackin, joka hoitaa homman ja ei ole kalliimmasta päästä.
                 </p>
                 {/* You can add a relevant video here if you have one */}
               </div>
@@ -37,7 +37,7 @@ const webkehitys = ({ preview }) => {
                     Käyttäjäkeskeinen suunnittelu:
                   </h2>
                   <p className="text-gray-600">
-                    Suunnittelen verkkosivustosi käyttäjien tarpeet ja odotukset huomioiden. Tavoitteenani on luoda sivusto, joka on helppokäyttöinen, intuitiivinen ja visuaalisesti houkutteleva.
+                    Suunnittelen digityökalu stackkisi käyttäjien tarpeet ja odotukset huomioiden. Tavoitteenani on luoda ratkaisu, joka on helppokäyttöinen, intuitiivinen ja oikeasti toimiva.
                   </p>
                 </div>
                 <div className="p-8 rounded-lg shadow-md bg-gray-50">
@@ -45,7 +45,7 @@ const webkehitys = ({ preview }) => {
                     Responsiiviset sivut:
                   </h2>
                   <p className="text-gray-600">
-                    Varmistan, että verkkosivustosi toimii moitteettomasti kaikilla laitteilla, oli kyse sitten tietokoneesta, tabletista tai älypuhelimesta.
+                    Varmistan, että yrityksesi liiketoimintaprosessit toimivat moitteettomasti kaikilla laitteilla, oli kyse sitten tietokoneesta, tabletista tai älypuhelimesta.
                   </p>
                 </div>
                 <div className="p-8 rounded-lg shadow-md bg-gray-50">
@@ -53,7 +53,7 @@ const webkehitys = ({ preview }) => {
                     Hakukoneystävällisyys (SEO):
                   </h2>
                   <p className="text-gray-600">
-                    Optimoin verkkosivustosi hakukoneille, jotta potentiaaliset asiakkaasi löytävät sinut helpommin Googlessa ja muissa hakukoneissa.
+                    Optimoin sisältösi hakukoneille, jotta potentiaaliset asiakkaasi löytävät sinut helpommin Googlessa ja muissa hakukoneissa.
                   </p>
                 </div>
               </div>
@@ -63,10 +63,10 @@ const webkehitys = ({ preview }) => {
   <div className="container px-4 mx-auto max-w-7xl">
     <div className="mb-12 text-center">
       <h2 className="mb-4 text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
-        Web-kehityspalvelut räätälöidysti yrityksesi tarpeisiin
+        Teknologiapalvelut räätälöidysti yrityksesi tarpeisiin
       </h2>
       <p className="max-w-3xl mx-auto text-lg font-medium text-gray-700">
-        Suunnittelen ja toteutan verkkosivustoja, jotka tukevat liiketoimintasi kasvua.
+        Suunnittelen ja toteutan teknologisia kokonaisuuksia, jotka tukevat liiketoimintasi kasvua.
       </p>
     </div>
 
@@ -91,11 +91,10 @@ const webkehitys = ({ preview }) => {
           Asennamme ja konfiguroimme helppokäyttöisen sisällönhallintajärjestelmän, kuten WordPressin, jotta voit päivittää verkkosivustosi sisältöä itse ilman teknistä osaamista.
         </p>
       </div>
-
       <div className="p-8 transition-shadow duration-300 bg-white rounded-lg shadow-md hover:shadow-lg">
-        <h3 className="mb-4 text-2xl font-semibold text-blue-600">Ylläpito ja tuki</h3>
+        <h3 className="mb-4 text-2xl font-semibold text-blue-600">Asikashallintajärjestelmät (CMR)</h3>
         <p className="text-gray-700">
-          Tarjoamme jatkuvaa ylläpitoa ja tukea verkkosivustollesi, jotta se pysyy ajan tasalla ja toimii moitteettomasti. Voit keskittyä liiketoimintaasi, kun me huolehdimme teknisistä yksityiskohdista.
+          Katsotaan että teillä on käytössä teidän tarpeisiinne sopiva CMR ja automatisoidaan esimerkiksi markkinoinnin toimenpiteitä.
         </p>
       </div>
     </div>

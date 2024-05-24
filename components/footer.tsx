@@ -33,25 +33,13 @@ export default function Footer() {
             Kaipaatko jeesiä näkyvyydessä? Autan mielelläni.
           </h3>
           <div className="flex flex-col items-center justify-center lg:flex-row lg:pl-4 lg:w-1/2">
-            <a
-              ref={contactLinkRef}
-              href="#"
-              className="px-12 py-3 mx-3 mb-6 font-bold text-white transition-colors duration-200 bg-black border border-black hover:bg-white hover:text-black lg:px-8 lg:mb-0"
-            >
-              Ota yhteyttä
-            </a>
-            <a
-              href={`https://ilarischmidt.com/palvelut`}
-              className="mx-3 font-bold hover:underline"
-            >
-              Tutustu palveluihin
-            </a>
+          <OtaYhteytta/>
+
           </div>
         </div>
 
 
-        <OtaYhteytta/>
-
+      
 
 
         <div className="p-10 rounded footer footer-center text-base-content">

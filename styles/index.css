@@ -14,6 +14,46 @@
 
 /* Your own custom utilities */
 
+/* Tailwind CSS for chat bubbles */
+.chat {
+  margin-bottom: 1rem;
+}
+
+.chat-start {
+  text-align: left;
+}
+
+.chat-header {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.chat-bubble {
+  border-radius: 0.5rem;
+  padding: 1rem;
+  max-width: 80%;
+}
+
+.chat-footer {
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+}
+
+/* Custom CSS to float the bubbles */
+@media (min-width: 768px) {
+  .chat {
+    margin-bottom: 2rem;
+  }
+}
+
+
+
+
+
+
+
+
+
 .has-text-align-left {
   @apply text-left;
 }
