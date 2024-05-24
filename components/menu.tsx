@@ -12,7 +12,7 @@ export default function Menu() {
                         <ul>
                             <li><Link href="https://www.ilarischmidt.com/palvelut/hakukoneoptimointi">Hakukoneoptimointi (SEO)</Link></li>
                             <li><Link href="https://www.ilarischmidt.com/palvelut/google-mainonta">Google mainonta</Link></li>
-                            <li><Link href="https://www.ilarischmidt.com/palvelut/web-kehitys">Web kehitys</Link></li>
+                            <li><Link href="https://www.ilarischmidt.com/palvelut/webkehitys">Web kehitys</Link></li>
                         </ul>
                     </details>
                 </li>

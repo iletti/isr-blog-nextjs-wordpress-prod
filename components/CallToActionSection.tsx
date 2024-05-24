@@ -12,7 +12,7 @@ const CallToActionSection: React.FC = () => {
             Ota yhteyttä ja pyydä ilmainen SEO-konsultaatio!
           </p>
           <a
-            href="#contact-form" // Link to your contact form (if you have one)
+            href="https://www.ilarischmidt.com/yhteystiedot" // Link to your contact form (if you have one)
             className="inline-flex items-center px-6 py-3 mt-8 text-base font-medium text-indigo-600 bg-white border border-transparent rounded-md shadow-sm hover:bg-indigo-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
           >
             Ota yhteyttä
