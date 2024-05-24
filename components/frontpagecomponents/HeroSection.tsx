@@ -17,7 +17,7 @@ const HeroSection = () => {
 
           <Link href="https://share-eu1.hsforms.com/1-l-acyEwRI-720iCh1lWLg2e324k" legacyBehavior>
             <a className="px-8 py-4 mt-4 text-lg font-semibold text-white bg-blue-600 rounded hover:bg-blue-700 dark:text-white">
-              Jötä soittopyyntö
+              Jätä soittopyyntö
             </a>
           </Link>
         </div>
