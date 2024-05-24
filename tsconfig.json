@@ -15,6 +15,6 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/HubspotForm.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/HubspotForm.js", "components/news-post-preview.jsx", "components/news-list.jsx"],
   "exclude": ["node_modules"]
 }

@@ -5,27 +5,25 @@ import MoreStories from "../components/more-stories";
 import HeroPost from "../components/hero-post";
 import Intro from "../components/intro";
 import Layout from "../components/layout";
-import { getAllPostsForHome } from "../lib/api";
+import { getAllBlogPosts } from "../lib/api";
 import { CMS_NAME } from "../lib/constants";
 
 export default function Index({ allPosts: { edges }, preview }) {
   const heroPost = edges[0]?.node;
   const morePosts = edges.slice(1);
 
-
   const pageTitle = "Google Ads Blogi";
   const pageDescription =
     "Tervetuloa oppimaan ja inspiroitumaan siitä miten saat näkyvyyttä ja tuloksia Google Ads mainoskampanjoillasi.";
 
-
-
   return (
-    <Layout preview={preview }  pageTitle={pageTitle} pageDescription={pageDescription}>
+    <Layout preview={preview} pageTitle={pageTitle} pageDescription={pageDescription}>
       <Head>
-       
+        <meta name="keywords" content="Google Ads, blogi, hakukoneoptimointi, digitaalinen markkinointi, SEO, SEM" />
+        <meta property="og:title" content={pageTitle} />
+        <meta property="og:description" content={pageDescription} />
       </Head>
       <Container>
-
         <Intro />
         {heroPost && (
           <HeroPost
@@ -44,7 +42,7 @@ export default function Index({ allPosts: { edges }, preview }) {
 }
 
 export const getStaticProps: GetStaticProps = async ({ preview = false }) => {
-  const allPosts = await getAllPostsForHome(preview);
+  const allPosts = await getAllBlogPosts(preview);
 
   return {
     props: { allPosts, preview },
