@@ -36,7 +36,7 @@ const FeaturedBlogPosts = ({ posts }) => {
   const latestPosts = decodedPosts.slice(0, 6);
 
   return (
-    <div className="flex flex-col items-center justify-center py-20 bg-white dark:bg-gray-900">
+    <div className="flex flex-col items-center justify-center py-20 mt-5 bg-white dark:bg-gray-900">
       <div className="w-full max-w-6xl px-5 text-center">
         <h2 className="mb-10 text-4xl font-bold text-black dark:text-white">Uusimmat Blogikirjoitukset</h2>
         <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
