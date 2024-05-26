@@ -9,6 +9,7 @@ import ServicesSection from "../components/frontpagecomponents/ServicesSection";
 import FeaturedBlogPosts from "../components/frontpagecomponents/FeaturedBlogPosts";
 import TestimonialsSection from "../components/frontpagecomponents/TestimonialsSection";
 import ContactSection from "../components/frontpagecomponents/ContactSection";
+import IframeComponent from '../components/IframeComponent';
 
 
 export default function Index({ allPosts: { edges }, preview }) {
@@ -28,6 +29,7 @@ export default function Index({ allPosts: { edges }, preview }) {
         <meta property="og:description" content={pageDescription} />
       </Head>
       <HeroSection />
+      <IframeComponent />
       <main>
         <AboutSection />
         <ServicesSection />
