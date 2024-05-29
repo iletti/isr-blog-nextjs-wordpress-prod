@@ -148,3 +148,61 @@
 
 
 .ul {z-index: 1;}
+
+
+
+
+.menu-container {
+  position: relative;
+}
+
+.menu-button {
+  font-size: 44px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.menu {
+  display: none; /* Hidden by default */
+  flex-direction: column;
+  background-color: white;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.menu.block {
+  display: block; /* Display when state is open */
+}
+
+.menu li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.menu li:last-child {
+  border-bottom: none;
+}
+
+@media (min-width: 1024px) {
+  .menu {
+      display: flex;
+      flex-direction: row;
+      position: static;
+      box-shadow: none;
+  }
+
+  .menu li {
+      border: none;
+      padding: 0 15px;
+  }
+
+  .menu-button {
+      display: none;
+  }
+}
