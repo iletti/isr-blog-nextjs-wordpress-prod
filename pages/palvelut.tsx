@@ -20,44 +20,22 @@ const Services = ({ preview }) => {
       
 <Container>
   
-        {/* Hero Section */}
-        <div
-          className="min-h-screen bg-center bg-cover hero"
-          style={{
-            backgroundImage:
-              "url(https://mleuki3qgkxz.i.optimole.com/co-ZpyQ-_nizr8Bj/w:auto/h:auto/q:auto/id:f1a3b00c9de99ec58715f4a3d02f64ad/directUpload/vihreakuula_Design_an_image_symbolizing_opportunity_and_growth__69ccb930-f614-4987-8153-1199672e2e5c.png)",
-          }}
-        >
-          <div className=" bg-opacity-60"></div>
-          <div className="text-center hero-content glass">
-            <div>
-              <h1 className="text-3xl font-bold md:text-5xl dark:text-black">
-                Google Ads palvelut
-              </h1>
-              <p className="mt-4 text-base md:text-lg dark:text-black">
-                Maksimoi yrityksesi näkyvyys Googlessa Ilari Schmidtin avulla.
-              </p>
-            </div>
-          </div>
-        </div>
   
         {/* Services and Pricing Section */}
         <div className="py-10">
           <div className="container px-4 mx-auto">
             <div className="mb-10 text-center">
-              <h2 className="text-2xl font-bold md:text-4xl">
+              <h1 className="text-2xl font-bold md:text-4xl">
                 Palvelut ja Hinnoittelu
-              </h2>
+              </h1>
               <p className="mt-4 text-base md:text-xl">
                 Oletko valmis kasvattamaan yrityksesi näkyvyyttä Googlessa ja
-                saamaan enemmän laadukkaita liidejä? Freelancer Ilari Schmidt
-                tarjoaa kattavat Google Ads -palvelut, jotka on suunniteltu
-                vastaamaan juuri sinun liiketoimintasi tarpeita. Kampanjahinnat
+                saamaan enemmän laadukkaita liidejä? Kampanjahinnat
                 alkaen vain 200€ + valitsemasi budjetti.
               </p>
             </div>
   
-            {/* Video Section */}
+            {/* Video Section
             <div className="w-full px-4 overflow-hidden">
               <iframe
                 className="w-full aspect-video"
@@ -67,7 +45,7 @@ const Services = ({ preview }) => {
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
               ></iframe>
-            </div>
+            </div> */}
   
             <div className="py-10">
               <div className="container px-4 mx-auto">
