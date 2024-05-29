@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const HeroSection = () => {
   return (
-    <div className="relative flex flex-col items-center justify-center min-h-screen py-20 bg-white dark:bg-gray-900">
+    <div className="relative flex flex-col items-center justify-center min-h-screen py-20 bg-white dark:bg-gray-900 -z-10">
       <div className="flex flex-col items-center justify-center w-full max-w-4xl px-5 text-center md:flex-row md:text-left">
         <div className="flex flex-col items-center justify-center w-full space-y-6 md:w-1/2">
           <div className="text-5xl font-bold text-black dark:text-white">

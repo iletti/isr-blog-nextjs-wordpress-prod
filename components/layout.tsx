@@ -12,7 +12,7 @@ export default function Layout({  preview, pageTitle, pageDescription, children 
       <Meta  title={pageTitle} description={pageDescription}  />
       <div className="min-h-screen">
         <Alert preview={preview} />
-        <Menu />
+        <Menu  />
         <main>{children}</main>
       </div>
       <Footer />

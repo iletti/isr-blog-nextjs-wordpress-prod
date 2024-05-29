@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Menu() {
     return (
         <Container>
-            <ul className="justify-center w-full menu lg:menu-horizontal rounded-box">
+            <ul className="justify-center w-full menu lg:menu-horizontal rounded-box ">
                 <li><Link href="https://www.ilarischmidt.com/">Etusivu</Link></li>
                 <li>
                     <details>
