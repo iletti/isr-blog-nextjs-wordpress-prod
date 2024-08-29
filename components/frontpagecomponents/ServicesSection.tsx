@@ -34,11 +34,9 @@ const ServicesSection = () => {
               <div className="mb-4 text-5xl text-blue-600">{service.icon}</div>
               <h3 className="mb-2 text-2xl font-bold text-black dark:text-white">{service.title}</h3>
               <p className="mb-4 text-gray-800 dark:text-gray-200">{service.description}</p>
-              <Link href={service.link} legacyBehavior>
-                <a className="px-6 py-2 mt-auto text-lg font-semibold text-white bg-blue-600 rounded hover:bg-blue-700">
-                  Lue lisää
-                </a>
-              </Link>
+              <Link href={service.link} className="px-6 py-2 mt-auto text-lg font-semibold text-white bg-blue-600 rounded hover:bg-blue-700">
+  Lue lisää
+</Link>
             </div>
           ))}
         </div>

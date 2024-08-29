@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 const HeroSection = () => {
   return (
@@ -15,11 +15,9 @@ const HeroSection = () => {
   <br /> Asiakkaani ovat saavuttaneet erinomaisia tuloksia yhteistyön myötä. Ota yhteyttä ja katsotaan, miten voin auttaa sinua kasvattamaan liiketoimintaasi.
 </div>
 
-          <Link href="https://share-eu1.hsforms.com/1-l-acyEwRI-720iCh1lWLg2e324k" legacyBehavior>
-            <a className="px-8 py-4 mt-4 text-lg font-semibold text-white bg-blue-600 rounded hover:bg-blue-700 dark:text-white">
-              Jätä soittopyyntö
-            </a>
-          </Link>
+<Link href="https://share-eu1.hsforms.com/1-l-acyEwRI-720iCh1lWLg2e324k" className="px-8 py-4 mt-4 text-lg font-semibold text-white bg-blue-600 rounded hover:bg-blue-700 dark:text-white">
+  Jätä soittopyyntö
+</Link>
         </div>
         <div className="relative w-full mt-10 md:mt-0 md:w-1/2">
           <Image

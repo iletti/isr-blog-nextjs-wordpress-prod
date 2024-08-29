@@ -1,72 +1,84 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Link from "next/link";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
-// Utility function to strip HTML tags and truncate text to a specified character count
-const stripHtmlAndTruncate = (html, charLimit) => {
-  const tempDiv = document.createElement("div");
-  tempDiv.innerHTML = html;
-  const text = tempDiv.textContent || tempDiv.innerText || "";
-  return text.length > charLimit ? text.slice(0, charLimit) + '...' : text;
+// Utility function to strip HTML tags, normalize text, and truncate to a specified character count
+const stripHtmlAndTruncate = (html: string, charLimit: number): string => {
+  const stripHtml = (html: string) => html.replace(/<[^>]*>/g, '');
+  const decodedHtml = decodeHtmlEntities(html);
+  const normalizedText = normalizeText(stripHtml(decodedHtml));
+  return normalizedText.length > charLimit ? normalizedText.slice(0, charLimit) + '...' : normalizedText;
 };
 
-const decodeHtmlEntities = (html) => {
-  if (typeof window === 'undefined') return html; // Return original HTML on server side
-  const textArea = document.createElement('textarea');
-  textArea.innerHTML = html;
-  return textArea.value;
+// Utility function to decode HTML entities
+const decodeHtmlEntities = (html: string): string => {
+  return html.replace(/&nbsp;/g, ' ')
+             .replace(/&amp;/g, '&')
+             .replace(/&lt;/g, '<')
+             .replace(/&gt;/g, '>')
+             .replace(/&quot;/g, '"')
+             .replace(/&#039;/g, "'");
 };
 
-const FeaturedBlogPosts = ({ posts }) => {
-  const [decodedPosts, setDecodedPosts] = useState([]);
+// Utility function to normalize text (remove extra spaces and trim)
+const normalizeText = (text: string): string => {
+  return text.replace(/\s+/g, ' ').trim();
+};
 
-  useEffect(() => {
-    // Decode HTML entities on client side
-    const decoded = posts.map(post => ({
-      ...post,
-      node: {
-        ...post.node,
-        excerpt: decodeHtmlEntities(post.node.excerpt)
-      }
-    }));
-    setDecodedPosts(decoded);
-  }, [posts]);
+interface Post {
+  node: {
+    id: string;
+    title: string;
+    excerpt: string;
+    slug: string;
+    featuredImage?: {
+      node?: {
+        sourceUrl?: string;
+      };
+    };
+  };
+}
 
-  // Only show the latest three posts
-  const latestPosts = decodedPosts.slice(0, 6);
+interface FeaturedBlogPostsProps {
+  posts: Post[];
+}
 
+const FeaturedBlogPosts: React.FC<FeaturedBlogPostsProps> = ({ posts }) => {
   return (
-    <div className="flex flex-col items-center justify-center py-20 mt-5 bg-white dark:bg-gray-900">
-      <div className="w-full max-w-6xl px-5 text-center">
-        <h2 className="mb-10 text-4xl font-bold text-black dark:text-white">Uusimmat Blogikirjoitukset</h2>
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
-          {latestPosts.map((post) => (
-            <div key={post.node.slug} className="flex flex-col items-center p-6 bg-gray-100 rounded-lg shadow-md dark:bg-gray-700">
+    <section className="bg-white py-12">
+      <div className="container mx-auto px-4">
+        <h2 className="text-3xl font-bold mb-8">Featured Blog Posts</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {posts.map((post) => (
+            <div key={`${post.node.id}-${post.node.slug}`} className="bg-gray-100 rounded-lg overflow-hidden shadow-md">
               <div className="relative w-full h-48 mb-4">
-                <Image
-                  src={post.node.featuredImage.node.sourceUrl}
-                  alt={post.node.title}
-                  layout="fill"
-                  objectFit="cover"
-                  className="rounded-lg"
-                />
+                {post.node.featuredImage?.node?.sourceUrl ? (
+                  <Image
+                    src={post.node.featuredImage.node.sourceUrl}
+                    alt={post.node.title || 'Featured image'}
+                    layout="fill"
+                    objectFit="cover"
+                  />
+                ) : (
+                  <div className="w-full h-full bg-gray-300 flex items-center justify-center">
+                    <span className="text-gray-500">No image available</span>
+                  </div>
+                )}
               </div>
-              <h3 className="mb-2 text-2xl font-bold text-black dark:text-white line-clamp-2">
-                {post.node.title}
-              </h3>
-              <div className="mb-4 text-gray-800 dark:text-gray-200">
-                {stripHtmlAndTruncate(post.node.excerpt, 120)}
+              <div className="p-4">
+                <h3 className="text-xl font-semibold mb-2">{decodeHtmlEntities(post.node.title)}</h3>
+                <p className="text-gray-600 mb-4">
+                  {stripHtmlAndTruncate(post.node.excerpt, 150)}
+                </p>
+                <Link href={`/blog/${post.node.slug}`} className="text-blue-500 hover:underline">
+                  Read more
+                </Link>
               </div>
-              <Link href={`/posts/${post.node.slug}`} legacyBehavior>
-                <a className="px-6 py-2 mt-auto text-lg font-semibold text-white bg-blue-600 rounded hover:bg-blue-700">
-                  Lue lisää
-                </a>
-              </Link>
             </div>
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

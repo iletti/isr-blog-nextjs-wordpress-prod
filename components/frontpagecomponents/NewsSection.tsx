@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 const NewsSection = ({ news }) => {
   return (
@@ -21,11 +21,9 @@ const NewsSection = ({ news }) => {
               </div>
               <h3 className="mb-2 text-2xl font-bold text-black dark:text-white">{post.node.title}</h3>
               <div className="mb-4 text-gray-800 dark:text-gray-200" dangerouslySetInnerHTML={{ __html: post.node.excerpt }} />
-              <Link href={`/news/${post.node.slug}`} legacyBehavior>
-                <a className="px-6 py-2 mt-auto text-lg font-semibold text-white bg-blue-600 rounded hover:bg-blue-700">
-                  Lue lisää
-                </a>
-              </Link>
+              <Link href={`/news/${post.node.slug}`} className="px-6 py-2 mt-auto text-lg font-semibold text-white bg-blue-600 rounded hover:bg-blue-700">
+  Lue lisää
+</Link>
             </div>
           ))}
         </div>
